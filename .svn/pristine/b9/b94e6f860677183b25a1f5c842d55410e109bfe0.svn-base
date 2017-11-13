@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_seting_phone.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_seting_phone.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\icon_home_fan.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_home_fan.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\shops_top.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\shops_top.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_ej.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_ej.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_gathering.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gathering.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_wr.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_wr.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_mrs.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_mrs.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_zd.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_zd.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_home.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_ownicon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_ownicon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_collection_qr.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_collection_qr.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\icon_small_message_white.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_small_message_white.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\icon_rebate.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\icon_rebate.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_write.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_write.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_message.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_message.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\host_logo.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\host_logo.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_qr.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_qr.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_commit.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_commit.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_location.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_location.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_withdraw.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_withdraw.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_ad_2.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_ad_2.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_usericon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_usericon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_ad_1.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_ad_1.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\login_logo_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\login_logo_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_qr.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_qr.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_mvaluate_title.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_mvaluate_title.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_setting_info.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_setting_info.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_other.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_other.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sctjsj.mayk.wowallethost.ui.activity.AuditStatusActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/ic_audit_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x220">
+        <!--title-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40">
+            <LinearLayout
+                android:gravity="center"
+                android:id="@+id/editstore_linear_back"
+                android:layout_margin="@dimen/x5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/shops_iv_back"
+                    android:src="@mipmap/icon_left_white_arrow"
+                    android:layout_width="@dimen/x20"
+                    android:layout_height="@dimen/x20" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:text="审核状态"
+                    android:textSize="@dimen/x16"
+                    android:textColor="@color/color_primary_white"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/editstore_linear_classify"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/x10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_refresh"
+                    android:src="@drawable/ic_refresh"
+                    android:gravity="center"
+                    android:layout_width="@dimen/x20"
+                    android:layout_height="@dimen/x20" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_marginTop="@dimen/x30"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_inaudit"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80" />
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/x40"
+            android:layout_marginLeft="@dimen/x20"
+            android:layout_marginRight="@dimen/x20"
+            android:textSize="@dimen/x15"
+            android:textColor="@color/color_fade_black"
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginRight="@dimen/x30"
+            android:text="预计一个工作日内审核完毕，审核结果会短信通知到您的注册手机上。"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.CompoundButton;
+import android.widget.RadioButton;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class IndexActivity_ViewBinding implements Unbinder {
+  private IndexActivity target;
+
+  private View view2131755429;
+
+  private View view2131755430;
+
+  private View view2131755431;
+
+  private View view2131755432;
+
+  @UiThread
+  public IndexActivity_ViewBinding(IndexActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public IndexActivity_ViewBinding(final IndexActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.act_index_rb_home, "field 'actIndexRbHome' and method 'indexNavRBCheckedChanged'");
+    target.actIndexRbHome = Utils.castView(view, R.id.act_index_rb_home, "field 'actIndexRbHome'", RadioButton.class);
+    view2131755429 = view;
+    ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+      @Override
+      public void onCheckedChanged(CompoundButton p0, boolean p1) {
+        target.indexNavRBCheckedChanged(Utils.<RadioButton>castParam(p0, "onCheckedChanged", 0, "indexNavRBCheckedChanged", 0), p1);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_index_rb_order, "field 'actIndexRbOrder' and method 'indexNavRBCheckedChanged'");
+    target.actIndexRbOrder = Utils.castView(view, R.id.act_index_rb_order, "field 'actIndexRbOrder'", RadioButton.class);
+    view2131755430 = view;
+    ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+      @Override
+      public void onCheckedChanged(CompoundButton p0, boolean p1) {
+        target.indexNavRBCheckedChanged(Utils.<RadioButton>castParam(p0, "onCheckedChanged", 0, "indexNavRBCheckedChanged", 0), p1);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_index_rb_shop, "field 'actIndexRbShop' and method 'indexNavRBCheckedChanged'");
+    target.actIndexRbShop = Utils.castView(view, R.id.act_index_rb_shop, "field 'actIndexRbShop'", RadioButton.class);
+    view2131755431 = view;
+    ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+      @Override
+      public void onCheckedChanged(CompoundButton p0, boolean p1) {
+        target.indexNavRBCheckedChanged(Utils.<RadioButton>castParam(p0, "onCheckedChanged", 0, "indexNavRBCheckedChanged", 0), p1);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_index_rb_own, "field 'actIndexRbOwn' and method 'indexNavRBCheckedChanged'");
+    target.actIndexRbOwn = Utils.castView(view, R.id.act_index_rb_own, "field 'actIndexRbOwn'", RadioButton.class);
+    view2131755432 = view;
+    ((CompoundButton) view).setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+      @Override
+      public void onCheckedChanged(CompoundButton p0, boolean p1) {
+        target.indexNavRBCheckedChanged(Utils.<RadioButton>castParam(p0, "onCheckedChanged", 0, "indexNavRBCheckedChanged", 0), p1);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    IndexActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.actIndexRbHome = null;
+    target.actIndexRbOrder = null;
+    target.actIndexRbShop = null;
+    target.actIndexRbOwn = null;
+
+    ((CompoundButton) view2131755429).setOnCheckedChangeListener(null);
+    view2131755429 = null;
+    ((CompoundButton) view2131755430).setOnCheckedChangeListener(null);
+    view2131755430 = null;
+    ((CompoundButton) view2131755431).setOnCheckedChangeListener(null);
+    view2131755431 = null;
+    ((CompoundButton) view2131755432).setOnCheckedChangeListener(null);
+    view2131755432 = null;
+  }
+}

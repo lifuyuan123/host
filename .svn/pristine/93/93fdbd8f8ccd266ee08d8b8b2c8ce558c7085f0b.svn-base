@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\raw\\keep.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\2776916a9fc33aea46e24799e80362e265945d90\\output\\res\\raw\\keep.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\raw\\pixiedust.ogg",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\raw\\pixiedust.ogg"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\raw\\prompt.wav",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\raw\\prompt.wav"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\raw\\beep.ogg",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d\\output\\res\\raw\\beep.ogg"
+    }
+]

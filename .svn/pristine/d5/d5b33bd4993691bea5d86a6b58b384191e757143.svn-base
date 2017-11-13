@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_addup.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_addup.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\ic_today.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_today.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\shops_top.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xxhdpi\\shops_top.png"
+    }
+]

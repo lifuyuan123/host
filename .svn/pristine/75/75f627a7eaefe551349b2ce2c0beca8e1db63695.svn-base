@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_bottom.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_bottom.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_bottom.xml"
+    }
+]

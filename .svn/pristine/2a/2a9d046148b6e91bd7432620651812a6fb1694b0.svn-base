@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/x320"
+        android:layout_height="@dimen/x100"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/x10">
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/icon_rebate" />
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/x25"
+            android:layout_marginTop="@dimen/x48"
+            android:orientation="horizontal"
+            android:layout_width="@dimen/x90"
+            android:layout_height="@dimen/x35">
+            <TextView
+                android:id="@+id/tv_maxRebate"
+                android:gravity="center"
+                android:text="0"
+
+                android:textSize="@dimen/x18"
+                android:textColor="#3B1610"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:text="元"
+                android:textSize="@dimen/x12"
+                android:textColor="#3B1610"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/x170"
+            android:layout_marginTop="@dimen/x28"
+            android:gravity="center"
+            android:layout_width="@dimen/x90"
+            android:layout_height="@dimen/x40">
+            <TextView
+                android:id="@+id/tv_remainRebate"
+                android:gravity="center"
+                android:text="0"
+
+                android:textSize="@dimen/x18"
+                android:textColor="#3B1610"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:text="元"
+                android:textSize="@dimen/x12"
+                android:textColor="#3B1610"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="@dimen/x320"
+        android:layout_height="@dimen/x100"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_ad_2"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+</LinearLayout>

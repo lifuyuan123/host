@@ -1,0 +1,726 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_choose_agent.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_choose_agent.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b576f8aa546028964159898817bad8385925111d\\output\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\frg_order.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\frg_order.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\qr_camera.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d\\output\\res\\layout\\qr_camera.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fan.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_fan.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_evaluate_manage.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_evaluate_manage.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\bill_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\bill_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_basepickerview.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\da039f62378b76a4b2a6858dd6ee746ed72f27ca\\output\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\grid_view_item_album_select.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\layout\\grid_view_item_album_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_5.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_5.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_lay_1.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\home_lay_1.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store_advert.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_store_advert.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_agent_store.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_add_agent_store.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluate_lay_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\evaluate_lay_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_change_login_pwd.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_change_login_pwd.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\clerk_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\clerk_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_store.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_confirm_deposit.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_confirm_deposit.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fans_message.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_fans_message.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_second_fans.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_second_fans.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\pickerview_time.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\da039f62378b76a4b2a6858dd6ee746ed72f27ca\\output\\res\\layout\\pickerview_time.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_comment_store_title.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_comment_store_title.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\beautican_manage_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\beautican_manage_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\message_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\message_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_test.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_fillin_data.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_fillin_data.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_regist2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_regist2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_lay_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\home_lay_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_add_project_lay_1.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_add_project_lay_1.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_delete_dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_delete_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_7.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_7.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_bill.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_bill.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_store.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_edit_store.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_4.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_4.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_fansteam_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_fansteam_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_order_details.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_project_classify.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_project_classify.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_change_real_name.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_change_real_name.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_add_project_lay_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_add_project_lay_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_choose_font_size.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\dialog_choose_font_size.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_bill_detail.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_bill_detail.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\edit_store_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\edit_store_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_album_select.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\layout\\activity_album_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_index.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_index.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_audit_status.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_audit_status.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\chooseagent_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\chooseagent_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_lay_3.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\home_lay_3.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_project_introduce.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_edit_project_introduce.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_regist1.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_regist1.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_pop_list_dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\layout_pop_list_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_second_fan_list.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_second_fan_list.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\toolbar.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\getui_notification.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\2776916a9fc33aea46e24799e80362e265945d90\\output\\res\\layout\\getui_notification.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\sweet_alert_dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\sweet_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store_manage.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_store_manage.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b576f8aa546028964159898817bad8385925111d\\output\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\myfansitem.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\myfansitem.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_security_code.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\view_security_code.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_officer_title.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_officer_title.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_new_beautican.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_add_new_beautican.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clerk_type.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_clerk_type.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_project.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_edit_project.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_project_classify.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_project_classify.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\bill_items.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\bill_items.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_balance_pay_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\dialog_balance_pay_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_pickerview_topbar.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\da039f62378b76a4b2a6858dd6ee746ed72f27ca\\output\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\materialcolorpicker__layout_color_picker.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\layout\\materialcolorpicker__layout_color_picker.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_choose_sex.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_choose_sex.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_beautician_manage.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_beautician_manage.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluate_lay_3.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\evaluate_lay_3.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\frg_shop.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\frg_shop.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_photo_head.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_photo_head.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\common_dialog_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\common_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_confirm_pay.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_confirm_pay.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_store_gallery.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_store_gallery.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_project_title.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_project_title.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_message_list.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_message_list.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_agent_mange.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_agent_mange.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\upload_progress_dialog_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\upload_progress_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\upgrade_dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\upgrade_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_setting_feed_back.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_setting_feed_back.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_seting.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_seting.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\common_input_dialog_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\common_input_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_confirm_order.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_confirm_order.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\pickerview_options.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\da039f62378b76a4b2a6858dd6ee746ed72f27ca\\output\\res\\layout\\pickerview_options.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_user_info.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_agent_parent.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_agent_parent.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_withdraw_msg_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\dialog_withdraw_msg_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_to_all_comment_store_title.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_to_all_comment_store_title.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_1.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_1.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\loading_dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\edit_store_topitem.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\edit_store_topitem.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\p_dialog_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\p_dialog_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_balance_detail.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_balance_detail.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\frg_home.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\frg_home.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_new_project.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_add_new_project.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_agent_child.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_agent_child.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\home_lay_4.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\home_lay_4.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_forget_pwd.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_forget_pwd.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_qrcode.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\banner.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\banner\\build\\intermediates\\bundles\\default\\res\\layout\\banner.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_forget_pass.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_forget_pass.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_pay_detail.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_pay_detail.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_apply_record.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_apply_record.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\no_network_remind_layout.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\layout\\no_network_remind_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\expand_text_view.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\expandtextview\\build\\intermediates\\bundles\\default\\res\\layout\\expand_text_view.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\detail_list_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\detail_list_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\evaluate_lay_1.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\evaluate_lay_1.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_change_user_alipay.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_change_user_alipay.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_business_status.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_business_status.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_upload_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\item_upload_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\frg_mine.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\frg_mine.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_settled.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_settled.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_gallery_scan.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_gallery_scan.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_3.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_3.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_lay_6.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\store_lay_6.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_gathering_qr.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_gathering_qr.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_image_select.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\layout\\activity_image_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_clerkdetails.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_clerkdetails.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_agent_mange.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_agent_mange.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\order_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\order_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\record_item.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\record_item.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_message_in_fo.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_message_in_fo.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\grid_view_item_image_select.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\layout\\grid_view_item_image_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_add_or_modify_project_classify.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\layout\\activity_add_or_modify_project_classify.xml"
+    }
+]

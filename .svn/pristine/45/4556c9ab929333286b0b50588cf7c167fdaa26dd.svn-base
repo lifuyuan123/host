@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ColorPicker">
+
+    <View
+        android:id="@+id/colorView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingBottom="@dimen/materialcolorpicker__activity_vertical_margin"
+        android:paddingLeft="@dimen/materialcolorpicker__activity_horizontal_margin"
+        android:paddingRight="@dimen/materialcolorpicker__activity_horizontal_margin"
+        android:paddingTop="@dimen/materialcolorpicker__activity_vertical_margin">
+
+        <!--T-->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_alpha"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T：" />
+
+            <com.pes.androidmaterialcolorpickerdialog.MaterialColorPickerTextSeekBar
+                android:id="@+id/alphaSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:maxHeight="3dip"
+                android:minHeight="3dip"
+                android:progressDrawable="@drawable/materialcolorpicker__alpha_progress"
+                android:textColor="@android:color/black"
+                android:thumb="@drawable/materialcolorpicker__alpha_thumb_drawable" />
+
+        </LinearLayout>
+
+        <!--R-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R：" />
+
+            <com.pes.androidmaterialcolorpickerdialog.MaterialColorPickerTextSeekBar
+                android:layout_gravity="center_vertical"
+                android:id="@+id/redSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:maxHeight="3dip"
+                android:minHeight="3dip"
+                android:progressDrawable="@drawable/materialcolorpicker__red_progress"
+                android:textColor="@android:color/holo_red_light"
+                android:thumb="@drawable/materialcolorpicker__red_thumb_drawable" />
+
+        </LinearLayout>
+        <!--G-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G：" />
+
+            <com.pes.androidmaterialcolorpickerdialog.MaterialColorPickerTextSeekBar
+                android:id="@+id/greenSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:maxHeight="3dip"
+                android:minHeight="3dip"
+                android:progressDrawable="@drawable/materialcolorpicker__green_progress"
+                android:textColor="@android:color/holo_green_light"
+                android:thumb="@drawable/materialcolorpicker__green_thumb_drawable" />
+
+
+        </LinearLayout>
+        <!--B-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B：" />
+
+            <com.pes.androidmaterialcolorpickerdialog.MaterialColorPickerTextSeekBar
+                android:id="@+id/blueSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="255"
+                android:maxHeight="3dip"
+                android:minHeight="3dip"
+                android:progressDrawable="@drawable/materialcolorpicker__blue_progress"
+                android:textColor="@android:color/holo_blue_light"
+                android:thumb="@drawable/materialcolorpicker__blue_thumb_drawable" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:paddingTop="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="#"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hexCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="18sp"
+            tools:text="123456" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+                <!--取消-->
+                <TextView
+                    android:id="@+id/cancelColorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="#CD5B55"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/okColorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="选择"
+                    android:textColor="#5078ED"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

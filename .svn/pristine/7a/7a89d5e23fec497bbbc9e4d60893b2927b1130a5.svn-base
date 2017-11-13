@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sctjsj.mayk.wowallethost.ui.activity.FillinDataActivity">
+
+    <!--title-->
+    <RelativeLayout
+        android:background="@color/color_primary_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/fillindata_linear_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_margin="@dimen/x10"
+                android:id="@+id/fillindata_iv_back"
+                android:src="@mipmap/icon_left_white_arrow"
+                android:layout_width="@dimen/x20"
+                android:layout_height="@dimen/x20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="填写资料"
+                android:textSize="@dimen/x16"
+                android:textColor="@color/color_primary_white"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--经营类别企业执照-->
+                <LinearLayout
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@color/color_primary_white"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--店铺名称-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/category_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center_vertical"
+                                android:text="经营类别"
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_width="@dimen/x90"
+                                android:layout_height="match_parent" />
+
+                            <RelativeLayout
+                                android:gravity="center_vertical"
+                                android:layout_marginRight="@dimen/x10"
+                                android:layout_marginLeft="@dimen/x10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:textSize="@dimen/x12"
+                                    android:gravity="center_vertical"
+                                    android:text="请选择"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent" />
+                                <ImageView
+                                    android:src="@drawable/icon_arrow_gray_right"
+                                    android:layout_centerVertical="true"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_width="@dimen/x20"
+                                    android:layout_height="@dimen/x20" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/color_txt_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp" />
+                    </RelativeLayout>
+
+                    <!--营业执照-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/license_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center_vertical"
+                                android:text="企业执照编号"
+                                android:layout_width="@dimen/x90"
+                                android:layout_height="match_parent" />
+
+                            <EditText
+                                android:id="@+id/fillindata_edt_licenseNum"
+                                android:singleLine="true"
+                                android:hint="请填写"
+                                android:textSize="@dimen/x12"
+                                android:background="@null"
+                                android:layout_marginLeft="@dimen/x10"
+                                android:layout_marginRight="@dimen/x10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/color_txt_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp" />
+                    </RelativeLayout>
+
+                    <!--上传图片-->
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/x10"
+                        android:layout_marginBottom="@dimen/x10"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x100">
+                        <ImageView
+                            android:id="@+id/fillindata_iv_license_icon"
+                            android:src="@drawable/image_add_icon"
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_width="@dimen/x150"
+                            android:layout_height="@dimen/x60" />
+                        <TextView
+                            android:text="请点击左侧+上传店家营业执照"
+                            android:gravity="center"
+                            android:textSize="@dimen/x12"
+                            android:layout_margin="@dimen/x10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--资质证书-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@color/color_primary_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <!--资质证书-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/certificate_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center"
+                                android:text="资质证书"
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/color_txt_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp" />
+                    </RelativeLayout>
+
+                    <!--上传图片-->
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x100">
+                        <ImageView
+                            android:id="@+id/fillindata_iv_certificate_icon"
+                            android:src="@drawable/image_add_icon"
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_width="@dimen/x150"
+                            android:layout_height="@dimen/x60" />
+                        <TextView
+                            android:text="请点击左侧+上传店家资质证书"
+                            android:gravity="center"
+                            android:textSize="@dimen/x12"
+                            android:layout_margin="@dimen/x10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--法人姓名-->
+                <!--资质证书-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/x10"
+                    android:background="@color/color_primary_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <!--资质证书-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/username_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center"
+                                android:text="法人姓名"
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/color_txt_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp" />
+                    </RelativeLayout>
+
+                    <!--上传图片-->
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x100">
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/x160"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_marginTop="@dimen/x10"
+                                android:layout_marginLeft="@dimen/x5"
+                                android:id="@+id/fillindata_iv_idcard_icon"
+                                android:src="@drawable/image_add_icon"
+                                android:layout_width="@dimen/x150"
+                                android:layout_height="@dimen/x60" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x5"
+                                android:layout_marginTop="@dimen/x5"
+                                android:gravity="center"
+                                android:text="请上传法人身份证正面照片"
+                                android:textSize="@dimen/x10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical"
+                            android:layout_width="@dimen/x160"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_marginTop="@dimen/x10"
+                                android:layout_marginLeft="@dimen/x5"
+                                android:id="@+id/fillindata_iv_idcard_back_icon"
+                                android:src="@drawable/image_add_icon"
+                                android:layout_width="@dimen/x150"
+                                android:layout_height="@dimen/x60" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x5"
+                                android:layout_marginTop="@dimen/x5"
+                                android:gravity="center"
+                                android:text="请上传法人身份证反面照片"
+                                android:textSize="@dimen/x10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <!--企业地址，联系电话-->
+                <LinearLayout
+                    android:background="@color/color_primary_white"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/x10"
+                    android:layout_marginBottom="@dimen/x10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <!--企业地址-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/adress_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center"
+                                android:text="企业地址"
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+                            <EditText
+                                android:id="@+id/fillindata_edt_adress"
+                                android:singleLine="true"
+                                android:hint="请填写"
+                                android:textSize="@dimen/x12"
+                                android:background="@null"
+                                android:layout_marginLeft="@dimen/x20"
+                                android:layout_marginRight="@dimen/x10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_marginLeft="@dimen/x10"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/color_txt_gray"
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp" />
+                    </RelativeLayout>
+
+                    <!--联系电话-->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x40">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/x40">
+                            <ImageView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:src="@drawable/phone_icon"
+                                android:layout_width="@dimen/x20"
+                                android:layout_height="@dimen/x20" />
+                            <TextView
+                                android:layout_marginLeft="@dimen/x10"
+                                android:gravity="center"
+                                android:text="联系电话"
+                                android:textSize="@dimen/x14"
+                                android:textColor="@color/color_text"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" />
+                            <EditText
+                                android:id="@+id/fillindata_edt_phone"
+                                android:singleLine="true"
+                                android:hint="请填写"
+                                android:textSize="@dimen/x12"
+                                android:background="@null"
+                                android:layout_marginLeft="@dimen/x20"
+                                android:layout_marginRight="@dimen/x10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40">
+            <!--提交审核-->
+            <TextView
+                android:id="@+id/fillindata_tv_save"
+                android:gravity="center"
+                android:textSize="@dimen/x14"
+                android:background="@color/color_primary_blue"
+                android:text="提交审核"
+                android:textColor="@color/color_primary_white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x40"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

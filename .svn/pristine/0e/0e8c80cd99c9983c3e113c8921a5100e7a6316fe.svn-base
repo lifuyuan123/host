@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dividers">#1f000000</color>
+    <color name="hint_text">#61000000</color>
+    <color name="primary_text">#de000000</color>
+    <color name="secondary_text">#8a000000</color>
+    <color name="white">#FFFFFF</color>
+    <declare-styleable name="ExpandTextView"><attr format="reference|string" name="titleText"/><attr format="reference|string" name="contentText"/><attr format="reference|string" name="foldHint"/><attr format="reference|string" name="expandHint"/><attr format="reference|color" name="textTitleColor"/><attr format="reference|color" name="textContentColor"/><attr format="reference|color" name="textHintColor"/><attr format="reference" name="indicateImage"/><attr format="integer" name="minVisibleLines"/><attr format="dimension" name="titleTextSize"/><attr format="dimension" name="contentTextSize"/><attr format="dimension" name="hintTextSize"/><attr format="integer" name="animationDuration"/></declare-styleable>
+    <string name="app_name">Library</string>
+</resources>

@@ -1,0 +1,67 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.cjj.MaterialRefreshLayout;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class MessageListActivity_ViewBinding implements Unbinder {
+  private MessageListActivity target;
+
+  private View view2131755445;
+
+  @UiThread
+  public MessageListActivity_ViewBinding(MessageListActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public MessageListActivity_ViewBinding(final MessageListActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.message_back_lr, "field 'messageBackLr' and method 'onViewClicked'");
+    target.messageBackLr = Utils.castView(view, R.id.message_back_lr, "field 'messageBackLr'", RelativeLayout.class);
+    view2131755445 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked();
+      }
+    });
+    target.messageTitleTxt = Utils.findRequiredViewAsType(source, R.id.message_title_txt, "field 'messageTitleTxt'", TextView.class);
+    target.messageListView = Utils.findRequiredViewAsType(source, R.id.message_listView, "field 'messageListView'", RecyclerView.class);
+    target.messageRefresh = Utils.findRequiredViewAsType(source, R.id.message_refresh, "field 'messageRefresh'", MaterialRefreshLayout.class);
+    target.messageListLayput = Utils.findRequiredViewAsType(source, R.id.messageList_layput, "field 'messageListLayput'", RelativeLayout.class);
+    target.messageNoLayout = Utils.findRequiredViewAsType(source, R.id.messageNo_layout, "field 'messageNoLayout'", LinearLayout.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    MessageListActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.messageBackLr = null;
+    target.messageTitleTxt = null;
+    target.messageListView = null;
+    target.messageRefresh = null;
+    target.messageListLayput = null;
+    target.messageNoLayout = null;
+
+    view2131755445.setOnClickListener(null);
+    view2131755445 = null;
+  }
+}

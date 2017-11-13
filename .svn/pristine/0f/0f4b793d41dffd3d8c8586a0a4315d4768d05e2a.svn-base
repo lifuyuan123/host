@@ -1,0 +1,829 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:2:1-345:12
+	package
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:4:5-43
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:8:5-68
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:9:5-74
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:9:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:12:5-81
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:13:22-66
+uses-permission#android.permission.VIBRATE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:15:5-66
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:15:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:18:5-75
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:25:5-75
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:12:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.INTERNET
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:19:5-67
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:15:5-67
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:11:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:20:5-79
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:18:5-79
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:21:5-76
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:17:5-76
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:15:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:21:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:22:5-68
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:24:5-81
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:16:5-81
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:22:5-81
+MERGED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:11:5-81
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:18:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:24:22-78
+application
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:34:5-343:19
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:27:5-38:19
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\lifuy\.android\build-cache\ea7bd979602f3b2e2e56c0acfaf1c182e781c255\output\AndroidManifest.xml:11:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\lifuy\.android\build-cache\9430089133887105c27dc1c77b502d21125ac6f5\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:percent:25.3.1] C:\Users\lifuy\.android\build-cache\793cf1e1eef5a15c85e6df5558dd10f1e94f448b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\lifuy\.android\build-cache\b47334879cf3531074b6a508f6c72061eafb06ec\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lifuy\.android\build-cache\3412d65b62b3212877d676be0beba4896cb64740\output\AndroidManifest.xml:26:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\lifuy\.android\build-cache\2da42b1ef5420b1ea93ceb5b1b4ffdc68d37bb83\output\AndroidManifest.xml:9:5-20
+MERGED from [q.rorbin:QRefreshLayout:1.1.3] C:\Users\lifuy\.android\build-cache\a85fb97dd51725cd83a1444211157d22735b6bb2\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:14:5-26:19
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:13:5-34:19
+MERGED from [WoWalletHost:expandtextview:1.0.3] E:\job\job\host\WoWalletHost\expandtextview\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.XuDaojie:QRCode-Android:v0.4.2] C:\Users\lifuy\.android\build-cache\6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\lifuy\.android\build-cache\6b0a575a3c2e3d07d4ba6d3d893a5096f703fe50\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lifuy\.android\build-cache\621e747801e40237e8859d0ce02f5e8bff9e2ff4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.github.ornolfr:rating-view:0.1.2] C:\Users\lifuy\.android\build-cache\5f33392fade7687b6a1450bfd9af3ccd71142a8c\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:32:5-98:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lifuy\.android\build-cache\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\0b1af71002473a0ce1153ec170ec813e8b71219f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\a4a289225b8ae9e626c4e9aa8671d3a748ee6100\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lifuy\.android\build-cache\354082727ac9109e1301ff2614e451c00533fdd6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lifuy\.android\build-cache\78e399247ab22b4ee9d79001106cdb42869e3a19\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lifuy\.android\build-cache\8cb814e5348f02d28f0603181fb28f9efbb56d8a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lifuy\.android\build-cache\0919ed10400d739f80216a281dc365445ece3b9b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lifuy\.android\build-cache\4b12baa011b4d51eaadb3936ac270d85ade6f686\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lifuy\.android\build-cache\1a5a108f0a154cd50de9930d55595ea34c14ccf2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\lifuy\.android\build-cache\e3dac604b27b4a739337a19845548107b676efa1\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:19:5-54:19
+	android:label
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:38:9-41
+	android:supportsRtl
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:39:9-35
+	android:allowBackup
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:36:9-35
+	android:icon
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:37:9-41
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:40:9-40
+	tools:replace
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:41:9-52
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:35:9-50
+activity#com.sctjsj.mayk.wowallethost.TestActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:45:9-50
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:45:19-47
+activity#com.sctjsj.mayk.wowallethost.ui.activity.IndexActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:49:9-58:20
+	android:launchMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:51:13-44
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:50:13-54
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:56:27-74
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AddNewProjectActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:61:9-64:70
+	android:windowSoftInputMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:64:13-67
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:62:13-62
+activity#com.sctjsj.mayk.wowallethost.ui.activity.EditProjectIntroduceActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:67:9-70:70
+	android:windowSoftInputMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:70:13-67
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:69:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:68:13-69
+activity#com.sctjsj.mayk.wowallethost.ui.activity.OrderDetailsActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:73:9-75:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:75:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:74:13-61
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ForgetPwdActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:78:9-80:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:80:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:79:13-58
+activity#com.sctjsj.mayk.wowallethost.ui.activity.EditStoreActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:83:9-85:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:85:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:84:13-58
+activity#com.sctjsj.mayk.wowallethost.ui.activity.GatheringQrActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:87:9-89:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:89:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:88:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.StoreManageActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:92:9-94:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:94:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:93:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ProjectClassifyActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:97:9-99:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:99:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:98:13-64
+activity#com.sctjsj.mayk.wowallethost.ui.activity.StoreAdvertActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:101:9-103:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:103:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:102:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.BeauticianManageActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:105:9-107:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:107:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:106:13-65
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AddNewBeautican
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:109:9-111:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:111:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:110:13-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.FillinDataActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:114:9-116:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:116:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:115:13-59
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AddOrModifyProjectClassify
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:119:9-121:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:121:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:120:13-67
+activity#com.sctjsj.mayk.wowallethost.ui.activity.SettledActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:124:9-126:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:126:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:125:13-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.BusinessStatusActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:129:9-131:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:131:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:130:13-63
+activity#com.sctjsj.mayk.wowallethost.ui.activity.EvaluateManageActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:134:9-137:67
+	android:windowSoftInputMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:137:13-64
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:136:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:135:13-63
+activity#com.sctjsj.mayk.wowallethost.ui.activity.LoginActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:140:9-143:51
+	android:launchMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:142:13-44
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:143:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:141:13-54
+activity#com.sctjsj.mayk.wowallethost.ui.activity.Regist1Activity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:146:9-148:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:148:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:147:13-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.Regist2Activity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:151:9-153:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:153:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:152:13-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ConfirmDepositActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:156:9-158:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:158:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:157:13-63
+activity#com.sctjsj.mayk.wowallethost.ui.activity.SettingFeedBackActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:161:9-163:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:163:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:162:13-64
+activity#com.sctjsj.mayk.wowallethost.ui.activity.MessageListActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:166:9-168:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:168:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:167:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.MessageInFoActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:170:9-172:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:172:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:171:13-60
+service#com.sctjsj.mayk.wowallethost.push.DemoPushService
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:175:9-179:46
+	android:process
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:179:13-43
+	android:label
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:178:13-40
+	android:exported
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:177:13-36
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:176:13-49
+service#com.sctjsj.mayk.wowallethost.push.DemoIntentService
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:181:9-59
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:181:18-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.StoreActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:184:9-186:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:186:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:185:13-54
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ChooseSexActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:189:9-191:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:191:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:190:13-58
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ClerkTypeActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:192:9-194:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:194:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:193:13-58
+activity#com.sctjsj.mayk.wowallethost.ui.activity.EditProjectActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:195:9-197:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:197:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:196:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.BalanceDetailActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:200:9-202:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:202:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:201:13-62
+activity#com.sctjsj.mayk.wowallethost.ui.activity.GalleryScanActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:205:9-207:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:207:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:206:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.BillActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:210:9-212:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:212:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:211:13-53
+activity#com.sctjsj.mayk.wowallethost.ui.activity.BillDetailActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:217:9-219:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:219:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:218:13-59
+activity#com.sctjsj.mayk.wowallethost.ui.activity.FanActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:222:9-224:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:224:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:223:13-52
+activity#com.sctjsj.mayk.wowallethost.ui.activity.FansMessageActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:227:9-229:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:229:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:228:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.SecondFanListActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:232:9-234:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:234:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:233:13-62
+activity#com.sctjsj.mayk.wowallethost.ui.activity.SecondFansActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:237:9-239:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:239:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:238:13-59
+activity#com.sctjsj.mayk.wowallethost.ui.activity.SettingActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:242:9-244:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:244:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:243:13-56
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ChooseAgentActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:247:9-249:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:249:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:248:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AgentMangeActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:252:9-254:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:254:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:253:13-59
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ForgetPassActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:257:9-259:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:259:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:258:13-59
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:263:9-267:50
+	android:screenOrientation
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:267:13-47
+	android:exported
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:266:13-37
+	android:configChanges
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:265:13-74
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:264:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:268:9-272:50
+	android:screenOrientation
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:272:13-47
+	android:exported
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:271:13-37
+	android:configChanges
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:270:13-74
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:269:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AddAgentStoreActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:278:9-280:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:280:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:279:13-62
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ConfirmOrderActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:283:9-285:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:285:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:284:13-61
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ConfirmPayActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:288:9-290:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:290:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:289:13-59
+activity#com.sctjsj.mayk.wowallethost.ui.activity.PayDetailActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:293:9-295:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:295:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:294:13-58
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:298:9-301:64
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:22:9-26:56
+	android:configChanges
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:300:13-81
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:301:13-61
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:26:13-53
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:299:13-66
+activity#com.sctjsj.mayk.wowallethost.wxapi.WXPayEntryActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:305:9-308:46
+	android:launchMode
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:308:13-43
+	android:exported
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:307:13-36
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:306:13-53
+activity#com.sctjsj.mayk.wowallethost.ui.activity.UserInfoActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:311:9-313:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:313:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:312:13-57
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ChangeRealNameActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:316:9-318:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:318:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:317:13-63
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ChangeUserAlipayActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:321:9-323:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:323:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:322:13-65
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ChangeLoginPwdActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:326:9-328:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:328:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:327:13-63
+activity#com.sctjsj.mayk.wowallethost.ui.activity.AuditStatusActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:331:9-333:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:333:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:332:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.ApplyRecordActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:336:9-338:51
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:338:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:337:13-60
+activity#com.sctjsj.mayk.wowallethost.ui.activity.QRCodeActivity
+ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:341:9-342:60
+	android:theme
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:342:13-48
+	android:name
+		ADDED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml:341:19-61
+uses-sdk
+INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\lifuy\.android\build-cache\ea7bd979602f3b2e2e56c0acfaf1c182e781c255\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alibaba:arouter-api:1.2.0.1] C:\Users\lifuy\.android\build-cache\7ffa5da3215f48c9df9916c59894d65169c651bb\output\AndroidManifest.xml:6:5-8:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\lifuy\.android\build-cache\9430089133887105c27dc1c77b502d21125ac6f5\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\lifuy\.android\build-cache\605c4cca556fe824fb9349d4c7bf0eeb73708f5f\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:percent:25.3.1] C:\Users\lifuy\.android\build-cache\793cf1e1eef5a15c85e6df5558dd10f1e94f448b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\lifuy\.android\build-cache\b47334879cf3531074b6a508f6c72061eafb06ec\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lifuy\.android\build-cache\3412d65b62b3212877d676be0beba4896cb64740\output\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\lifuy\.android\build-cache\2da42b1ef5420b1ea93ceb5b1b4ffdc68d37bb83\output\AndroidManifest.xml:5:5-7:41
+MERGED from [q.rorbin:QRefreshLayout:1.1.3] C:\Users\lifuy\.android\build-cache\a85fb97dd51725cd83a1444211157d22735b6bb2\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.soundcloud.android.crop:lib_crop:1.0.0] C:\Users\lifuy\.android\build-cache\b576f8aa546028964159898817bad8385925111d\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:7:5-9:41
+MERGED from [WoWalletHost:vlayout:unspecified] E:\job\job\host\WoWalletHost\vlayout\build\intermediates\bundles\default\AndroidManifest.xml:31:5-33:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lifuy\.android\build-cache\03a269b8a1126fe784a76cb44fbb684a6286d135\output\AndroidManifest.xml:20:5-43
+MERGED from [WoWalletHost:richeditor:unspecified] E:\job\job\host\WoWalletHost\richeditor\build\intermediates\bundles\default\AndroidManifest.xml:8:5-10:41
+MERGED from [WoWalletHost:colorpicker:unspecified] E:\job\job\host\WoWalletHost\colorpicker\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [WoWalletHost:banner:1.4.9] E:\job\job\host\WoWalletHost\banner\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [WoWalletHost:expandtextview:1.0.3] E:\job\job\host\WoWalletHost\expandtextview\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.XuDaojie:QRCode-Android:v0.4.2] C:\Users\lifuy\.android\build-cache\6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\lifuy\.android\build-cache\6b0a575a3c2e3d07d4ba6d3d893a5096f703fe50\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lifuy\.android\build-cache\621e747801e40237e8859d0ce02f5e8bff9e2ff4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.zcw:togglebutton-library:1.0.0] C:\Users\lifuy\.android\build-cache\b5fd57859549cc034c17a5dcff1d1ffdd52e118d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.zcweng:switch-button:0.0.3] C:\Users\lifuy\.android\build-cache\1ba82b59d9cdee9136c090fbd0ad43f119682d15\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ornolfr:rating-view:0.1.2] C:\Users\lifuy\.android\build-cache\5f33392fade7687b6a1450bfd9af3ccd71142a8c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] C:\Users\lifuy\.android\build-cache\7c73e942f4b7455b9976439fefe683d0723f2c62\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lifuy\.android\build-cache\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\0b1af71002473a0ce1153ec170ec813e8b71219f\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\a4a289225b8ae9e626c4e9aa8671d3a748ee6100\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lifuy\.android\build-cache\354082727ac9109e1301ff2614e451c00533fdd6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lifuy\.android\build-cache\78e399247ab22b4ee9d79001106cdb42869e3a19\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lifuy\.android\build-cache\8cb814e5348f02d28f0603181fb28f9efbb56d8a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lifuy\.android\build-cache\0919ed10400d739f80216a281dc365445ece3b9b\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lifuy\.android\build-cache\4b12baa011b4d51eaadb3936ac270d85ade6f686\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lifuy\.android\build-cache\1a5a108f0a154cd50de9930d55595ea34c14ccf2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\lifuy\.android\build-cache\e3dac604b27b4a739337a19845548107b676efa1\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.6] C:\Users\lifuy\.android\build-cache\da039f62378b76a4b2a6858dd6ee746ed72f27ca\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\lifuy\.android\build-cache\2245e3aec2306bd8d0835aef6839fb20b21cffd7\output\AndroidManifest.xml:18:5-42
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\lifuy\.android\build-cache\b47334879cf3531074b6a508f6c72061eafb06ec\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+		INJECTED from E:\job\job\host\WoWalletHost\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:21:5-80
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:21:22-77
+receiver#com.sctjsj.basemodule.base.receiver.NetworkChangeReceiver
+ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:33:9-37:20
+	android:name
+		ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:33:19-91
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:34:13-36:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from [WoWalletHost:basemodule:unspecified] E:\job\job\host\WoWalletHost\basemodule\build\intermediates\bundles\default\AndroidManifest.xml:35:25-76
+meta-data#android.support.VERSION
+ADDED from [com.android.support:percent:25.3.1] C:\Users\lifuy\.android\build-cache\793cf1e1eef5a15c85e6df5558dd10f1e94f448b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\lifuy\.android\build-cache\b47334879cf3531074b6a508f6c72061eafb06ec\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\lifuy\.android\build-cache\3412d65b62b3212877d676be0beba4896cb64740\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\lifuy\.android\build-cache\03a269b8a1126fe784a76cb44fbb684a6286d135\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lifuy\.android\build-cache\621e747801e40237e8859d0ce02f5e8bff9e2ff4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lifuy\.android\build-cache\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\0b1af71002473a0ce1153ec170ec813e8b71219f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lifuy\.android\build-cache\a4a289225b8ae9e626c4e9aa8671d3a748ee6100\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lifuy\.android\build-cache\354082727ac9109e1301ff2614e451c00533fdd6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lifuy\.android\build-cache\78e399247ab22b4ee9d79001106cdb42869e3a19\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lifuy\.android\build-cache\8cb814e5348f02d28f0603181fb28f9efbb56d8a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lifuy\.android\build-cache\0919ed10400d739f80216a281dc365445ece3b9b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lifuy\.android\build-cache\4b12baa011b4d51eaadb3936ac270d85ade6f686\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lifuy\.android\build-cache\1a5a108f0a154cd50de9930d55595ea34c14ccf2\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:percent:25.3.1] C:\Users\lifuy\.android\build-cache\793cf1e1eef5a15c85e6df5558dd10f1e94f448b\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:percent:25.3.1] C:\Users\lifuy\.android\build-cache\793cf1e1eef5a15c85e6df5558dd10f1e94f448b\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.CAMERA
+ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:12:22-62
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:15:9-82
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:15:19-79
+provider#android.support.v4.content.FileProvider
+ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:17:9-25:20
+	android:authorities
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:19:13-64
+	android:grantUriPermissions
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:21:13-47
+	android:exported
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:18:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:22:13-24:54
+	android:resource
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:24:17-51
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:3.0.2] C:\Users\lifuy\.android\build-cache\f33f34a942c9ed458988dfb5230f6d7b40d9f115\output\AndroidManifest.xml:23:17-67
+activity#com.darsh.multipleimageselect.activities.AlbumSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:18:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:17:13-88
+intent-filter#android.intent.category.DEFAULT
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:21:13-23:29
+category#android.intent.category.DEFAULT
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:22:27-73
+activity#com.darsh.multipleimageselect.activities.ImageSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:28:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] C:\Users\lifuy\.android\build-cache\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\output\AndroidManifest.xml:26:13-88
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.GET_TASKS
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:23:22-75
+uses-permission#getui.permission.GetuiService.${applicationId}
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:26:5-86
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:26:22-83
+permission#getui.permission.GetuiService.${applicationId}
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:28:5-30:44
+	android:protectionLevel
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:30:9-41
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:29:9-70
+meta-data#PUSH_APPID
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:35:9-37:47
+	android:value
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:36:13-38
+meta-data#PUSH_APPKEY
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:38:9-40:48
+	android:value
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:40:13-45
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:39:13-39
+meta-data#PUSH_APPSECRET
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:41:9-43:51
+	android:value
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:43:13-48
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:42:13-42
+service#com.igexin.sdk.PushService
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:46:9-54:19
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:50:13-43
+	android:label
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:49:13-47
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:48:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:47:13-54
+intent-filter#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:51:13-53:29
+action#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:52:17-80
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:52:25-77
+receiver#com.igexin.sdk.PushReceiver
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:56:9-66:20
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:56:19-61
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:57:13-65:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:58:17-79
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:58:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:60:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:61:17-74
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:61:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:62:17-78
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:62:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:63:17-87
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:63:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:64:17-90
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:64:25-87
+activity#com.igexin.sdk.PushActivity
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:68:9-74:75
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:72:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:70:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:71:13-37
+	android:theme
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:74:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:73:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:69:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:75:9-81:75
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:79:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:77:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:78:13-36
+	android:theme
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:81:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:80:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:76:13-52
+service#com.igexin.download.DownloadService
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:83:9-85:46
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:85:13-43
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:84:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:87:9-91:20
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:87:19-70
+provider#com.igexin.download.DownloadProvider
+ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:93:9-97:46
+	android:authorities
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:95:13-61
+	android:process
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:97:13-43
+	android:exported
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:96:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.10.2.0] C:\Users\lifuy\.android\build-cache\2776916a9fc33aea46e24799e80362e265945d90\output\AndroidManifest.xml:94:13-64
+provider#com.tencent.bugly.beta.utils.BuglyFileProvider
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:28:9-38:20
+	android:authorities
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:30:13-64
+	android:grantUriPermissions
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:32:13-47
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:31:13-37
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:29:13-74
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:41:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:43:9-46:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:46:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:44:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:47:9-50:40
+	android:process
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:50:13-37
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:48:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.1] C:\Users\lifuy\.android\build-cache\a97ffafd5e69faca5f8d3f56212610187c30a659\output\AndroidManifest.xml:52:13-85

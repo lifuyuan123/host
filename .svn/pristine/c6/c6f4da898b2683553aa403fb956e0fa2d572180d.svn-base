@@ -1,0 +1,59 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.LinearLayout;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.cjj.MaterialRefreshLayout;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ApplyRecordActivity_ViewBinding implements Unbinder {
+  private ApplyRecordActivity target;
+
+  private View view2131755220;
+
+  @UiThread
+  public ApplyRecordActivity_ViewBinding(ApplyRecordActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ApplyRecordActivity_ViewBinding(final ApplyRecordActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.recycler = Utils.findRequiredViewAsType(source, R.id.recycler, "field 'recycler'", RecyclerView.class);
+    target.refresh = Utils.findRequiredViewAsType(source, R.id.refresh, "field 'refresh'", MaterialRefreshLayout.class);
+    target.ChooseNoDataLayout = Utils.findRequiredViewAsType(source, R.id.Choose_noData_layout, "field 'ChooseNoDataLayout'", LinearLayout.class);
+    view = Utils.findRequiredView(source, R.id.choose_agent_back, "method 'onViewClicked'");
+    view2131755220 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ApplyRecordActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.recycler = null;
+    target.refresh = null;
+    target.ChooseNoDataLayout = null;
+
+    view2131755220.setOnClickListener(null);
+    view2131755220 = null;
+  }
+}

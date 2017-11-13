@@ -1,0 +1,126 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ConfirmDepositActivity_ViewBinding implements Unbinder {
+  private ConfirmDepositActivity target;
+
+  private View view2131755324;
+
+  private View view2131755326;
+
+  private View view2131755331;
+
+  private View view2131755321;
+
+  private View view2131755322;
+
+  private View view2131755330;
+
+  @UiThread
+  public ConfirmDepositActivity_ViewBinding(ConfirmDepositActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ConfirmDepositActivity_ViewBinding(final ConfirmDepositActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.mineWithdrawWenXinImg = Utils.findRequiredViewAsType(source, R.id.mine_withdraw_WenXinImg, "field 'mineWithdrawWenXinImg'", ImageView.class);
+    target.mineWithdrawAlipayImg = Utils.findRequiredViewAsType(source, R.id.mine_withdraw_alipayImg, "field 'mineWithdrawAlipayImg'", ImageView.class);
+    target.mineWithdrawEdt = Utils.findRequiredViewAsType(source, R.id.mine_withdraw_edt, "field 'mineWithdrawEdt'", EditText.class);
+    target.activityMineWithdraw = Utils.findRequiredViewAsType(source, R.id.activity_mine_withdraw, "field 'activityMineWithdraw'", LinearLayout.class);
+    target.tvAllBalance = Utils.findRequiredViewAsType(source, R.id.tv_all_balance, "field 'tvAllBalance'", TextView.class);
+    target.tvBalance = Utils.findRequiredViewAsType(source, R.id.tv_balance, "field 'tvBalance'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.mine_withdraw_WenXin, "method 'onViewClicked'");
+    view2131755324 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.mine_withdraw_alipay, "method 'onViewClicked'");
+    view2131755326 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.mine_withdraw_Btnsure, "method 'onViewClicked'");
+    view2131755331 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.mine_withdraw_back, "method 'onViewClicked'");
+    view2131755321 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.tv_right_balance, "method 'onViewClicked'");
+    view2131755322 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.tv_all_balance_click, "method 'onViewClicked'");
+    view2131755330 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ConfirmDepositActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.mineWithdrawWenXinImg = null;
+    target.mineWithdrawAlipayImg = null;
+    target.mineWithdrawEdt = null;
+    target.activityMineWithdraw = null;
+    target.tvAllBalance = null;
+    target.tvBalance = null;
+
+    view2131755324.setOnClickListener(null);
+    view2131755324 = null;
+    view2131755326.setOnClickListener(null);
+    view2131755326 = null;
+    view2131755331.setOnClickListener(null);
+    view2131755331 = null;
+    view2131755321.setOnClickListener(null);
+    view2131755321 = null;
+    view2131755322.setOnClickListener(null);
+    view2131755322 = null;
+    view2131755330.setOnClickListener(null);
+    view2131755330 = null;
+  }
+}

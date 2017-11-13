@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_arrow_gray_right.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_arrow_gray_right.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_pwd_white.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_pwd_white.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_product_introduce.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_product_introduce.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_load_faild.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_load_faild.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_remind_gray.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_remind_gray.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\bg_test_project.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\bg_test_project.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_left_white_arrow.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_left_white_arrow.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_default_portrait.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_default_portrait.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_delete_red.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_delete_red.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_add_img.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_add_img.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_delete_gray.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_delete_gray.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_project_name.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_project_name.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_product.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_product.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_user_white.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_user_white.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\shops_top.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\shops_top.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_project_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_project_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi\\icon_project_classify.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-mdpi\\icon_project_classify.png"
+    }
+]

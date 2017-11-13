@@ -1,0 +1,69 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ForgetPassActivity_ViewBinding implements Unbinder {
+  private ForgetPassActivity target;
+
+  private View view2131755405;
+
+  private View view2131755411;
+
+  @UiThread
+  public ForgetPassActivity_ViewBinding(ForgetPassActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ForgetPassActivity_ViewBinding(final ForgetPassActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.edtPsw = Utils.findRequiredViewAsType(source, R.id.edt_psw, "field 'edtPsw'", EditText.class);
+    target.edtPswAgin = Utils.findRequiredViewAsType(source, R.id.edt_psw_agin, "field 'edtPswAgin'", EditText.class);
+    target.edtPhoneCode = Utils.findRequiredViewAsType(source, R.id.edt_phone_code, "field 'edtPhoneCode'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.forgetpass_linear_back, "method 'onViewClicked'");
+    view2131755405 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bt_save, "method 'onViewClicked'");
+    view2131755411 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ForgetPassActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.edtPsw = null;
+    target.edtPswAgin = null;
+    target.edtPhoneCode = null;
+
+    view2131755405.setOnClickListener(null);
+    view2131755405 = null;
+    view2131755411.setOnClickListener(null);
+    view2131755411 = null;
+  }
+}

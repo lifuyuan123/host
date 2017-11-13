@@ -1,0 +1,71 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import de.hdodenhof.circleimageview.CircleImageView;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ConfirmOrderActivity_ViewBinding implements Unbinder {
+  private ConfirmOrderActivity target;
+
+  private View view2131755338;
+
+  private View view2131755333;
+
+  @UiThread
+  public ConfirmOrderActivity_ViewBinding(ConfirmOrderActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ConfirmOrderActivity_ViewBinding(final ConfirmOrderActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.totPrice = Utils.findRequiredViewAsType(source, R.id.totPrice, "field 'totPrice'", EditText.class);
+    target.confirmOrderImg = Utils.findRequiredViewAsType(source, R.id.confirm_order_Img, "field 'confirmOrderImg'", CircleImageView.class);
+    target.confirmStoreNameTxt = Utils.findRequiredViewAsType(source, R.id.confirm_storeName_txt, "field 'confirmStoreNameTxt'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.writer_order_BtnSure, "method 'confirmOrderClick'");
+    view2131755338 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.confirmOrderClick(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.write_order_back, "method 'confirmOrderClick'");
+    view2131755333 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.confirmOrderClick(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ConfirmOrderActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.totPrice = null;
+    target.confirmOrderImg = null;
+    target.confirmStoreNameTxt = null;
+
+    view2131755338.setOnClickListener(null);
+    view2131755338 = null;
+    view2131755333.setOnClickListener(null);
+    view2131755333 = null;
+  }
+}

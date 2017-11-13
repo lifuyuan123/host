@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="QRCode-Android-v0.4.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

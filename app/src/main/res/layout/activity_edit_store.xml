@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sctjsj.mayk.wowallethost.ui.activity.EditStoreActivity">
+    <!--title-->
+    <RelativeLayout
+        android:background="@color/color_primary_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40">
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/editstore_linear_back"
+            android:layout_margin="@dimen/x5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/shops_iv_back"
+                android:src="@mipmap/icon_left_white_arrow"
+                android:layout_width="@dimen/x20"
+                android:layout_height="@dimen/x20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="编辑店内项目"
+                android:textSize="@dimen/x16"
+                android:textColor="@color/color_primary_white"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:id="@+id/editstore_linear_classify"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:text="项目分类"
+                android:textSize="@dimen/x14"
+                android:textColor="@color/color_primary_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+     <!--店内项目-->
+    <RelativeLayout
+        android:layout_marginTop="@dimen/x10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@color/color_primary_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/x10"
+                android:src="@drawable/edit_store_topitem_icon"
+                android:layout_width="@dimen/x25"
+                android:layout_height="@dimen/x25" />
+            <TextView
+                android:layout_marginLeft="@dimen/x10"
+                android:text="店内项目"
+                android:textSize="@dimen/x14"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/editstore_linear_delete"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/x10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/editstore_tv_delete"
+                android:gravity="center"
+                android:text="删除"
+                android:textSize="@dimen/x14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_txt_gray"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp" />
+    </RelativeLayout>
+
+    <com.cjj.MaterialRefreshLayout
+        android:layout_weight="1"
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/edit_store_recyclerview"
+            android:background="@color/color_primary_white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/lin_nodata"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/icon_load_faild"
+                    android:layout_width="@dimen/x80"
+                    android:layout_height="@dimen/x80" />
+                <TextView
+                    android:layout_marginTop="@dimen/x10"
+                    android:text="没有数据。"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.cjj.MaterialRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/act_edit_store_project_ll_to_add_new_project"
+        android:background="@color/color_primary_blue"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40">
+        <TextView
+            android:id="@+id/edit_store_tv_add_move"
+            android:textSize="@dimen/x16"
+            android:textColor="@color/color_primary_white"
+            android:gravity="center"
+            android:text="新增店内项目"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

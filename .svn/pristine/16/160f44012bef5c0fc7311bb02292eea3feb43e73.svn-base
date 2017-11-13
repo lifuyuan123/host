@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\expandtextview\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\bf89b48d89fab9543705b8b57539c4b54eaa0ae8\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\expandtextview\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\bf89b48d89fab9543705b8b57539c4b54eaa0ae8\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\expandtextview\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\bf89b48d89fab9543705b8b57539c4b54eaa0ae8\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\expandtextview\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\bf89b48d89fab9543705b8b57539c4b54eaa0ae8\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]

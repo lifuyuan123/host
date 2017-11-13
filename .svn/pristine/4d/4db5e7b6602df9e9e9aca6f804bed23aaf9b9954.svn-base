@@ -1,0 +1,129 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+import jp.wasabeef.richeditor.RichEditor;
+
+public class AddNewProjectActivity_ViewBinding implements Unbinder {
+  private AddNewProjectActivity target;
+
+  private View view2131755195;
+
+  private View view2131755197;
+
+  private View view2131755194;
+
+  private View view2131755191;
+
+  private View view2131755199;
+
+  private View view2131755187;
+
+  @UiThread
+  public AddNewProjectActivity_ViewBinding(AddNewProjectActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public AddNewProjectActivity_ViewBinding(final AddNewProjectActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.tvTitle = Utils.findRequiredViewAsType(source, R.id.tv_title, "field 'tvTitle'", TextView.class);
+    target.mIVIconPreview = Utils.findRequiredViewAsType(source, R.id.iv_project_icon_preview, "field 'mIVIconPreview'", ImageView.class);
+    target.mRV = Utils.findRequiredViewAsType(source, R.id.rv, "field 'mRV'", RecyclerView.class);
+    target.mEditor = Utils.findRequiredViewAsType(source, R.id.editor, "field 'mEditor'", RichEditor.class);
+    target.tvClassify = Utils.findRequiredViewAsType(source, R.id.tv_project_classify, "field 'tvClassify'", TextView.class);
+    target.etProjectName = Utils.findRequiredViewAsType(source, R.id.et_project_name, "field 'etProjectName'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.tv_ok_edit_project_pic, "field 'mTVOkEditProjectPic' and method 'onViewClicked'");
+    target.mTVOkEditProjectPic = Utils.castView(view, R.id.tv_ok_edit_project_pic, "field 'mTVOkEditProjectPic'", TextView.class);
+    view2131755195 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.ll_to_edit_project_introduce, "method 'onViewClicked'");
+    view2131755197 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.ll_add_project_icon, "method 'onViewClicked'");
+    view2131755194 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_add_new_project_rl_to_classify, "method 'onViewClicked'");
+    view2131755191 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.save_new_project, "method 'onViewClicked'");
+    view2131755199 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.mine_balance_back, "method 'onViewClicked'");
+    view2131755187 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    AddNewProjectActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.tvTitle = null;
+    target.mIVIconPreview = null;
+    target.mRV = null;
+    target.mEditor = null;
+    target.tvClassify = null;
+    target.etProjectName = null;
+    target.mTVOkEditProjectPic = null;
+
+    view2131755195.setOnClickListener(null);
+    view2131755195 = null;
+    view2131755197.setOnClickListener(null);
+    view2131755197 = null;
+    view2131755194.setOnClickListener(null);
+    view2131755194 = null;
+    view2131755191.setOnClickListener(null);
+    view2131755191 = null;
+    view2131755199.setOnClickListener(null);
+    view2131755199 = null;
+    view2131755187.setOnClickListener(null);
+    view2131755187 = null;
+  }
+}

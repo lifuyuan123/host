@@ -1,0 +1,96 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class AddAgentStoreActivity_ViewBinding implements Unbinder {
+  private AddAgentStoreActivity target;
+
+  private View view2131755167;
+
+  private View view2131755172;
+
+  private View view2131755175;
+
+  @UiThread
+  public AddAgentStoreActivity_ViewBinding(AddAgentStoreActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public AddAgentStoreActivity_ViewBinding(final AddAgentStoreActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.storemanageIvBack = Utils.findRequiredViewAsType(source, R.id.storemanage_iv_back, "field 'storemanageIvBack'", ImageView.class);
+    view = Utils.findRequiredView(source, R.id.storemanage_linear_back, "field 'storemanageLinearBack' and method 'onViewClicked'");
+    target.storemanageLinearBack = Utils.castView(view, R.id.storemanage_linear_back, "field 'storemanageLinearBack'", LinearLayout.class);
+    view2131755167 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.storemanageEdtStoreName = Utils.findRequiredViewAsType(source, R.id.storemanage_edt_store_name, "field 'storemanageEdtStoreName'", EditText.class);
+    target.storemanageEdtBrandIntroduction = Utils.findRequiredViewAsType(source, R.id.storemanage_edt_brand_introduction, "field 'storemanageEdtBrandIntroduction'", EditText.class);
+    target.storemanageIvLogo = Utils.findRequiredViewAsType(source, R.id.storemanage_iv_logo, "field 'storemanageIvLogo'", ImageView.class);
+    view = Utils.findRequiredView(source, R.id.tv_to_choose, "field 'tvToChoose' and method 'onViewClicked'");
+    target.tvToChoose = Utils.castView(view, R.id.tv_to_choose, "field 'tvToChoose'", TextView.class);
+    view2131755172 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.storemanageEdtAdress = Utils.findRequiredViewAsType(source, R.id.storemanage_edt_adress, "field 'storemanageEdtAdress'", EditText.class);
+    target.storemanageEdtPhone = Utils.findRequiredViewAsType(source, R.id.storemanage_edt_phone, "field 'storemanageEdtPhone'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.storemanage_tv_save, "field 'storemanageTvSave' and method 'onViewClicked'");
+    target.storemanageTvSave = Utils.castView(view, R.id.storemanage_tv_save, "field 'storemanageTvSave'", TextView.class);
+    view2131755175 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    AddAgentStoreActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.storemanageIvBack = null;
+    target.storemanageLinearBack = null;
+    target.storemanageEdtStoreName = null;
+    target.storemanageEdtBrandIntroduction = null;
+    target.storemanageIvLogo = null;
+    target.tvToChoose = null;
+    target.storemanageEdtAdress = null;
+    target.storemanageEdtPhone = null;
+    target.storemanageTvSave = null;
+
+    view2131755167.setOnClickListener(null);
+    view2131755167 = null;
+    view2131755172.setOnClickListener(null);
+    view2131755172 = null;
+    view2131755175.setOnClickListener(null);
+    view2131755175 = null;
+  }
+}

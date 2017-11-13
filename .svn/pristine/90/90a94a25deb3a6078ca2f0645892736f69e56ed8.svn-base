@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary_white"
+    tools:context="com.sctjsj.mayk.wowallethost.TestActivity">
+
+    <TextView
+
+        android:background="@drawable/bg_host_reply_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fffffffffffffffffffffo.9.png图片其实就是png格式图片，不过它比普通的png图片外围多了1px（像素）的边框，另外就是使用这种格式的图片可以实现背景自适应大小且不失真的效果。比如某些控件横竖屏切换后控件的样子就变形了，或者某些图片作为控件背景也变形，这会让人很郁闷。幸好.9.png图片可以提供这些需要的功能。oooooooooofffffwwwwwwwwwnvenvaof"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

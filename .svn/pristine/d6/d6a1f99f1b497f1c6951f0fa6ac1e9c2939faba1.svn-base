@@ -1,0 +1,87 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.cjj.MaterialRefreshLayout;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class AgentMangeActivity_ViewBinding implements Unbinder {
+  private AgentMangeActivity target;
+
+  private View view2131755205;
+
+  private View view2131755206;
+
+  @UiThread
+  public AgentMangeActivity_ViewBinding(AgentMangeActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public AgentMangeActivity_ViewBinding(final AgentMangeActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.agent_mange_back, "field 'agentMangeBack' and method 'onViewClicked'");
+    target.agentMangeBack = Utils.castView(view, R.id.agent_mange_back, "field 'agentMangeBack'", RelativeLayout.class);
+    view2131755205 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.agentMangeTc = Utils.findRequiredViewAsType(source, R.id.agent_mange_tc, "field 'agentMangeTc'", TextView.class);
+    target.agentMangeStoreNumber = Utils.findRequiredViewAsType(source, R.id.agent_mange_storeNumber, "field 'agentMangeStoreNumber'", TextView.class);
+    target.agentMangeStoreNumbers = Utils.findRequiredViewAsType(source, R.id.agent_mange_storeNumbers, "field 'agentMangeStoreNumbers'", TextView.class);
+    target.agentMangeGmje = Utils.findRequiredViewAsType(source, R.id.agent_mange_gmje, "field 'agentMangeGmje'", TextView.class);
+    target.agentMangeList = Utils.findRequiredViewAsType(source, R.id.agent_mange_list, "field 'agentMangeList'", ListView.class);
+    target.activityAgentMange = Utils.findRequiredViewAsType(source, R.id.activity_agent_mange, "field 'activityAgentMange'", LinearLayout.class);
+    target.refreshlayout = Utils.findRequiredViewAsType(source, R.id.agent_message_refresh, "field 'refreshlayout'", MaterialRefreshLayout.class);
+    target.agentNo_layout = Utils.findRequiredViewAsType(source, R.id.agentNo_layout, "field 'agentNo_layout'", LinearLayout.class);
+    view = Utils.findRequiredView(source, R.id.agent_mange_addStore, "field 'agent_mange_addStore' and method 'onViewClicked'");
+    target.agent_mange_addStore = Utils.castView(view, R.id.agent_mange_addStore, "field 'agent_mange_addStore'", RelativeLayout.class);
+    view2131755206 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    AgentMangeActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.agentMangeBack = null;
+    target.agentMangeTc = null;
+    target.agentMangeStoreNumber = null;
+    target.agentMangeStoreNumbers = null;
+    target.agentMangeGmje = null;
+    target.agentMangeList = null;
+    target.activityAgentMange = null;
+    target.refreshlayout = null;
+    target.agentNo_layout = null;
+    target.agent_mange_addStore = null;
+
+    view2131755205.setOnClickListener(null);
+    view2131755205 = null;
+    view2131755206.setOnClickListener(null);
+    view2131755206 = null;
+  }
+}

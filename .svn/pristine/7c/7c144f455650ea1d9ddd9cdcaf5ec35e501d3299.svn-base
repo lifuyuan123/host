@@ -1,0 +1,65 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class AuditStatusActivity_ViewBinding implements Unbinder {
+  private AuditStatusActivity target;
+
+  private View view2131755224;
+
+  private View view2131755227;
+
+  @UiThread
+  public AuditStatusActivity_ViewBinding(AuditStatusActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public AuditStatusActivity_ViewBinding(final AuditStatusActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.tvContent = Utils.findRequiredViewAsType(source, R.id.tv_content, "field 'tvContent'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.editstore_linear_back, "method 'onViewClicked'");
+    view2131755224 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.iv_refresh, "method 'onViewClicked'");
+    view2131755227 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    AuditStatusActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.tvContent = null;
+
+    view2131755224.setOnClickListener(null);
+    view2131755224 = null;
+    view2131755227.setOnClickListener(null);
+    view2131755227 = null;
+  }
+}

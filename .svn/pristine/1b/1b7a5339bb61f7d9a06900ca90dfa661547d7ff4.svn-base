@@ -1,0 +1,67 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.LinearLayout;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.cjj.MaterialRefreshLayout;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class SecondFanListActivity_ViewBinding implements Unbinder {
+  private SecondFanListActivity target;
+
+  private View view2131755477;
+
+  @UiThread
+  public SecondFanListActivity_ViewBinding(SecondFanListActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public SecondFanListActivity_ViewBinding(final SecondFanListActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.fans_list_back, "field 'fansListBack' and method 'onViewClicked'");
+    target.fansListBack = Utils.castView(view, R.id.fans_list_back, "field 'fansListBack'", LinearLayout.class);
+    view2131755477 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked();
+      }
+    });
+    target.myfensLinearCentent = Utils.findRequiredViewAsType(source, R.id.myfens_linear_centent, "field 'myfensLinearCentent'", LinearLayout.class);
+    target.fansListRv = Utils.findRequiredViewAsType(source, R.id.fans_list_rv, "field 'fansListRv'", RecyclerView.class);
+    target.fansListQrefresh = Utils.findRequiredViewAsType(source, R.id.fans_list_qrefresh, "field 'fansListQrefresh'", MaterialRefreshLayout.class);
+    target.fansDataLayout = Utils.findRequiredViewAsType(source, R.id.fans_data_layout, "field 'fansDataLayout'", LinearLayout.class);
+    target.fansListNoLayout = Utils.findRequiredViewAsType(source, R.id.fans_list_No_layout, "field 'fansListNoLayout'", LinearLayout.class);
+    target.activitySecondFanList = Utils.findRequiredViewAsType(source, R.id.activity_second_fan_list, "field 'activitySecondFanList'", LinearLayout.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    SecondFanListActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.fansListBack = null;
+    target.myfensLinearCentent = null;
+    target.fansListRv = null;
+    target.fansListQrefresh = null;
+    target.fansDataLayout = null;
+    target.fansListNoLayout = null;
+    target.activitySecondFanList = null;
+
+    view2131755477.setOnClickListener(null);
+    view2131755477 = null;
+  }
+}

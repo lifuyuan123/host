@@ -1,0 +1,257 @@
+package com.sctjsj.mayk.wowallethost.ui.xWidget;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.bumptech.glide.Glide;
+import com.sctjsj.basemodule.base.util.DpUtils;
+import com.sctjsj.basemodule.base.util.LogUtil;
+import com.sctjsj.basemodule.core.img_load.PicassoUtil;
+import com.sctjsj.mayk.wowallethost.R;
+import com.sctjsj.mayk.wowallethost.event.StartUploadEvent;
+import com.sctjsj.mayk.wowallethost.model.javabean.ImageBean;
+import com.sctjsj.mayk.wowallethost.model.javabean.ProjectImageData;
+import com.sctjsj.mayk.wowallethost.model.javabean.UploadImgBean;
+import com.sctjsj.mayk.wowallethost.ui.activity.AddNewProjectActivity;
+import com.squareup.picasso.Picasso;
+
+import org.greenrobot.eventbus.EventBus;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Created by mayikang on 17/6/18.
+ * 上传进度对话框
+ */
+
+public class UploadProgressDialog extends Dialog implements View.OnClickListener {
+
+    private Activity mActivity;
+    private Context context;
+    private RecyclerView mRV;
+    private List<ProjectImageData> list = new ArrayList<>();
+    private UploadAdapter adapter;
+    //logo 相关
+    private ProjectImageData logoData;
+    private TextView tvLogoRoute;
+    private ImageView ivLogo;
+    private ProgressBar pbLogo;
+    private TextView tvLogoProgress;
+
+    /**
+     * Activity中创建
+     *
+     * @param mActivity
+     */
+    public UploadProgressDialog(Activity mActivity) {
+
+        super(mActivity, R.style.upload_progress_dialog);
+        this.mActivity = mActivity;
+        this.context = mActivity;
+        setCancelable(false);
+
+    }
+
+    public UploadProgressDialog(Context context) {
+
+        super(context, R.style.upload_progress_dialog);
+        this.context = context;
+        this.mActivity = (Activity) context;
+        setCancelable(false);
+    }
+
+    /**
+     * Fragment中创建
+     *
+     * @param mFragment
+     */
+    public UploadProgressDialog(Fragment mFragment) {
+        super(mFragment.getActivity(), R.style.upload_progress_dialog);
+        this.mActivity = mFragment.getActivity();
+        this.context = mFragment.getActivity();
+    }
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.upload_progress_dialog_layout);
+        initLocation();
+        initView();
+
+    }
+
+    private void initLocation() {
+        Window Window = this.getWindow();
+        //显示位置
+        Window.setGravity(Gravity.CENTER);
+        WindowManager.LayoutParams params = Window.getAttributes();
+        params.y = 20;
+        Window.setAttributes(params);
+    }
+
+    private void initView() {
+        mRV = (RecyclerView) findViewById(R.id.rv);
+        //logo 相关
+        tvLogoRoute = (TextView) findViewById(R.id.tv_route_logo);
+        ivLogo = (ImageView) findViewById(R.id.iv_logo);
+        pbLogo = (ProgressBar) findViewById(R.id.pb_logo);
+        tvLogoProgress = (TextView) findViewById(R.id.tv_progress_logo);
+
+        if(context instanceof AddNewProjectActivity){
+            ((AddNewProjectActivity)context).setOnPChangeListener(new AddNewProjectActivity.PChangeListener() {
+                @Override
+                public void onPChanged(int position, int percent) {
+                    tvLogoProgress.setText(percent+"%");
+                    pbLogo.setProgress(percent);
+                }
+            });
+        }
+
+
+
+        if (adapter == null) {
+            adapter = new UploadAdapter(list);
+        }
+
+        mRV.setAdapter(adapter);
+        mRV.setLayoutManager(new LinearLayoutManager(mActivity));
+        //取消上传
+        findViewById(R.id.tv_cancel).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dismiss();
+            }
+        });
+
+        //开始上传
+        findViewById(R.id.tv_start_upload).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EventBus.getDefault().post(new StartUploadEvent(1));
+            }
+        });
+
+    }
+
+    @Override
+    public void onClick(View v) {
+
+    }
+
+    public void setUploadList(List<ProjectImageData> mlist) {
+        list.clear();
+        list.addAll(mlist);
+    }
+
+    public void setLogo(ProjectImageData img) {
+        logoData = img;
+    }
+
+
+    public class UploadAdapter extends RecyclerView.Adapter<XHolder> {
+
+        List<ProjectImageData> data;
+
+        public UploadAdapter(List<ProjectImageData> data) {
+            this.data = data;
+        }
+
+        @Override
+        public XHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_upload_progress, parent, false);
+            return new XHolder(view);
+        }
+
+        @Override
+        public void onBindViewHolder(XHolder holder, int position) {
+            if (1 == data.get(position).getViewType()) {
+                holder.tvProgress.setText(data.get(position).getImageBean().getCurrentP() + "%");
+                holder.tvRoute.setText(data.get(position).getImageBean().getUrl());
+                holder.pb.setProgress(data.get(position).getImageBean().getCurrentP());
+                if(data.get(position).getImageBean().getType().equals("net")){
+                    Picasso.with(context).load(data.get(position).getImageBean().getUrl()).
+                            resize(DpUtils.dpToPx(context, 30), DpUtils.dpToPx(context, 30)).into(holder.iv);
+                }else {
+                    Picasso.with(context).load(new File(data.get(position).getImageBean().getUrl())).
+                            resize(DpUtils.dpToPx(context, 30), DpUtils.dpToPx(context, 30)).into(holder.iv);
+                }
+
+            }
+
+        }
+
+        @Override
+        public int getItemCount() {
+
+            return (data == null && data.size()>1 ) ? 0 : data.size()-1;
+        }
+    }
+
+    class XHolder extends RecyclerView.ViewHolder {
+
+        ProgressBar pb;
+        TextView tvProgress;
+        TextView tvRoute;
+        ImageView iv;
+
+        public XHolder(View itemView) {
+            super(itemView);
+            pb = (ProgressBar) itemView.findViewById(R.id.pb);
+            tvProgress = (TextView) itemView.findViewById(R.id.tv_progress);
+            tvRoute = (TextView) itemView.findViewById(R.id.tv_route);
+            iv = (ImageView) itemView.findViewById(R.id.iv);
+        }
+    }
+
+    public UploadAdapter getAdapter() {
+        return adapter;
+    }
+
+
+    @Override
+    public void show() {
+        super.show();
+        if(logoData!=null && 1==logoData.getViewType()){
+            String url=logoData.getImageBean().getUrl();
+            if(logoData.getImageBean().getType().equals("net")){
+//                PicassoUtil.getPicassoObject().
+                Glide.with(context).
+                        load(url).into(ivLogo);
+            }else {
+//                PicassoUtil.getPicassoObject().
+                Glide.with(context).
+                        load(new File(url)).into(ivLogo);
+            }
+
+            tvLogoRoute.setText(logoData.getImageBean().getUrl());
+        }
+    }
+
+    @Override
+    public void dismiss() {
+        super.dismiss();
+        if (list != null) {
+            list.clear();
+
+        }
+    }
+}

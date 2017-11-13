@@ -1,0 +1,882 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_3.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_3.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\redo.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\redo.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_audit_back.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_audit_back.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\image_add_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\image_add_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\underline.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\underline.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_own.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_own.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shop_preview_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\shop_preview_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__blue_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__blue_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_act_index_nav_shops_selector.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_act_index_nav_shops_selector.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\error_circle.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\error_circle.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_store_item_delete_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\edit_store_item_delete_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_full_black_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_full_black_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_defult_dialog.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_defult_dialog.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_check.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_check.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h5.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h5.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\numbers.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\numbers.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_own_selected.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_own_selected.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_back.png",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\6a3d80a8a86b06c0e1f6dd9b17f362694c9fae8d\\output\\res\\drawable\\ic_back.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_delete.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_delete.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__alpha_thumb_drawable.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__alpha_thumb_drawable.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_5.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_5.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\withdraw_msg_dialog_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\withdraw_msg_dialog_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\selector_pickerview_btn.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\da039f62378b76a4b2a6858dd6ee746ed72f27ca\\output\\res\\drawable\\selector_pickerview_btn.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h3.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h3.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\submit_bt.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\submit_bt.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_back.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_back.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\strikethrough.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\strikethrough.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_grandual_pink_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_grandual_pink_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qr_body_shape.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\qr_body_shape.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_1.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_1.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_7.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_7.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__green_thumb_drawable.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__green_thumb_drawable.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_backgroud.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\button_backgroud.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_arrow_gray_right.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_arrow_gray_right.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_fans_tc.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_fans_tc.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_open_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_open_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bg_host_reply_comment.9.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\bg_host_reply_comment.9.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__red_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__red_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\open.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\open.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_full_retangle_blue_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_full_retangle_blue_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\category_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\category_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_act_index_nav_own_selector.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_act_index_nav_own_selector.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_manage_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_manage_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_chooseagent_back.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_chooseagent_back.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__blue_thumb_drawable.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__blue_thumb_drawable.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\income.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\income.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ico_listup.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ico_listup.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_blue_white_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\x_normal_blue_white_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__alpha_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__alpha_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_backgroud_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\dialog_backgroud_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay2_textcolor.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay2_textcolor.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_choose.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_choose.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay2_checked.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay2_checked.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_white_blue_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_normal_white_blue_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h1.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h1.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_nocheck.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_nocheck.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_anim_style_a.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_anim_style_a.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_next.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_next.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\subscript.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\subscript.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_agent.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_agent.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_change_edt.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_change_edt.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_button_confirm_textcolor.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_button_confirm_textcolor.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\justify_center.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\justify_center.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_8.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_8.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_logo_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_logo_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_refresh.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_refresh.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h2.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h2.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\warning_circle.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\warning_circle.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_chooseagent_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_chooseagent_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__color_button_16.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__color_button_16.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\certificate_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\certificate_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evaluation_manage_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evaluation_manage_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_message_white.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_message_white.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\white_radius.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\banner\\build\\intermediates\\bundles\\default\\res\\drawable\\white_radius.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_banner_indicator_dot_select.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_banner_indicator_dot_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\justify_right.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\justify_right.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\beautician_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\beautician_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_inaudit.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_inaudit.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_setting_chick.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_setting_chick.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_store_item_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\edit_store_item_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_shop.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_shop.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_full_retangle_deep_blue_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_full_retangle_deep_blue_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h6.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h6.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\success_circle.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\success_circle.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\settled_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\settled_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\blue_button_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\blue_button_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\balance_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\balance_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\indent.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\indent.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_star_half.png",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\5f33392fade7687b6a1450bfd9af3ccd71142a8c\\output\\res\\drawable\\ic_star_half.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_homes.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_homes.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\license_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\license_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_none_white_tans_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_normal_none_white_tans_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\border_gray_remind.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\border_gray_remind.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_4.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_4.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_setting_nochick.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_setting_nochick.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_home.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_home.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_banner_indicator_dot_not_select.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_banner_indicator_dot_not_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\undo.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\undo.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\all.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\all.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gray_button_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\gray_button_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\setbutton_select.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\setbutton_select.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_star_filled.png",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\5f33392fade7687b6a1450bfd9af3ccd71142a8c\\output\\res\\drawable\\ic_star_filled.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_2.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_2.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_act_index_nav_home_selector.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_act_index_nav_home_selector.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edit_store_topitem_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\edit_store_topitem_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\image_placeholder.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\8e1cd64b49c85f6d5a5f7aad5c972c34cbb9f3c0\\output\\res\\drawable\\image_placeholder.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_font_size.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_font_size.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\username_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\username_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__green_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__green_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_white_white_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_normal_white_white_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay2_nochecked.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay2_nochecked.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_mine.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_mine.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_shops.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_shops.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bullets.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\bullets.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\buluopen.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\buluopen.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_full_retangle_blue_border_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_full_retangle_blue_border_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ture.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ture.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_order.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_order.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shops_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\shops_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\settled_backgroud.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\settled_backgroud.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_name_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_name_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\warning_sigh.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\warning_sigh.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\choose_agent_btn_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\choose_agent_btn_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ico_listdown.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ico_listdown.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\txt_color.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\txt_color.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_button_cancle_textcolor.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_button_cancle_textcolor.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\brand_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\brand_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\black_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\banner\\build\\intermediates\\bundles\\default\\res\\drawable\\black_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\superscript.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\superscript.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_blue_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_normal_blue_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_fanli_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_fanli_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\out.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\out.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\commission_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\commission_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_button_shape.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_button_shape.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_act_index_nav_text_color.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_act_index_nav_text_color.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay3_edt.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay3_edt.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\gray_radius.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\banner\\build\\intermediates\\bundles\\default\\res\\drawable\\gray_radius.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\italic.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\italic.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_advertising_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_advertising_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_error.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_error.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\justify_left.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\justify_left.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b47334879cf3531074b6a508f6c72061eafb06ec\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_full_retangle_pink_border_2.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_full_retangle_pink_border_2.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_upload_progress.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_upload_progress.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_del.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_del.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_act_index_nav_order_selector.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_act_index_nav_order_selector.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_orders.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_orders.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__red_thumb_drawable.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__red_thumb_drawable.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\x_normal_white_trans_retangle_border.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\x_normal_white_trans_retangle_border.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\qr_title_shape.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\qr_title_shape.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay3_buttonback.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay3_buttonback.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\red_button_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\red_button_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\crop__selectable_background.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b576f8aa546028964159898817bad8385925111d\\output\\res\\drawable\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_star_empty.png",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\5f33392fade7687b6a1450bfd9af3ccd71142a8c\\output\\res\\drawable\\ic_star_empty.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\loading_mum_blue_6.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\loading_mum_blue_6.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\error_center_x.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\error_center_x.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\phone_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\phone_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_succeed.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_succeed.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_button_textcolor.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\dialog_button_textcolor.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\materialcolorpicker__color_button.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\colorpicker\\build\\intermediates\\bundles\\default\\res\\drawable\\materialcolorpicker__color_button.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_open_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\button_open_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\evalute_lay2_background.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\evalute_lay2_background.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\h4.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\h4.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\crop__texture.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\b576f8aa546028964159898817bad8385925111d\\output\\res\\drawable\\crop__texture.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_share.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_share.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bold.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\bold.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_close_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_close_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\store_project_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\store_project_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\success_bow.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\basemodule\\build\\intermediates\\bundles\\default\\res\\drawable\\success_bow.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_nodata.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\ic_nodata.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shops_top.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\shops_top.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon_mines.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\icon_mines.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\adress_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\adress_icon.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\lifuy\\.android\\build-cache\\30753170e17c4bbdfbfdd9737a9c7e3923a1fbe4\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\outdent.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\outdent.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_close_icon.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\drawable\\button_close_icon.png"
+    }
+]

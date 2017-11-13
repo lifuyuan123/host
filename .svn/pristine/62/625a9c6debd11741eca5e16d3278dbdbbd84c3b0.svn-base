@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sctjsj.mayk.wowallethost"
+    android:versionCode="3"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <!-- iBeancon功能所需权限 -->
+    ;
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 个推3.0电子围栏功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    //bugly配置相关
+    <!-- 必须的权限配置 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 保存资源到SD卡 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 支付相关的权限 -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 存储 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- 浮动通知权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- 自定义权限 -->
+    <uses-permission android:name="getui.permission.GetuiService.com.sctjsj.mayk.wowallethost" />
+
+    <permission
+        android:name="getui.permission.GetuiService.com.sctjsj.mayk.wowallethost"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name="com.sctjsj.mayk.wowallethost.Application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/host_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- 测试 -->
+
+        <activity android:name="com.sctjsj.mayk.wowallethost.TestActivity" />
+
+        <!-- 首页 -->
+
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.IndexActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/my_style_day" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 添加新项目 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AddNewProjectActivity"
+            android:theme="@style/my_style_day"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 编辑项目介绍 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.EditProjectIntroduceActivity"
+            android:theme="@style/my_style_day"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <!-- 订单查询 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.OrderDetailsActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 订单查询 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ForgetPwdActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 店内项目 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.EditStoreActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 收款的二维码页面 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.GatheringQrActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 店铺管理 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.StoreManageActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 项目管理页面 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ProjectClassifyActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 店铺广告 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.StoreAdvertActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 店员管理 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.BeauticianManageActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 增加店员 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AddNewBeautican"
+            android:theme="@style/my_style_day" />
+
+        <!-- 编辑店内项目 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.FillinDataActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 添加、修改分类 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AddOrModifyProjectClassify"
+            android:theme="@style/my_style_day" />
+
+        <!-- 入驻成功 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.SettledActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 营业章台 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.BusinessStatusActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 评价管理 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.EvaluateManageActivity"
+            android:theme="@style/my_style_day"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+
+        <!-- 登陆 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/my_style_day" />
+
+        <!-- 入驻 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.Regist1Activity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 注册 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.Regist2Activity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 提现 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ConfirmDepositActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 反馈 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.SettingFeedBackActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 消息 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.MessageListActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 消息详情 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.MessageInFoActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 个推为第三方自定义推送服务 -->
+        <service
+            android:name="com.sctjsj.mayk.wowallethost.push.DemoPushService"
+            android:exported="true"
+            android:label="PushService"
+            android:process=":pushservice" />
+        <!-- 个推为第三方自定义的推送服务事件接收类 -->
+        <service android:name="com.sctjsj.mayk.wowallethost.push.DemoIntentService" />
+
+        <!-- 店铺预览 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.StoreActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 选择性别 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ChooseSexActivity"
+            android:theme="@style/my_style_day" />
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ClerkTypeActivity"
+            android:theme="@style/my_style_day" />
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.EditProjectActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 账单详情 -->
+
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.BalanceDetailActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 图片展示 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.GalleryScanActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 账单明细 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.BillActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 余额 -->
+
+
+        <!-- 账单明细 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.BillDetailActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 粉丝 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.FanActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 粉丝详情 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.FansMessageActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 二级粉丝 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.SecondFanListActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 下级粉丝 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.SecondFansActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 设置 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.SettingActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 加入代理商 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ChooseAgentActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 代理商管理 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AgentMangeActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 忘记密码—修改密码 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ForgetPassActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- ******************支付***************************************************** -->
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+
+        <!-- ******************支付end***************************************************** -->
+
+
+        <!-- 添加代理店铺 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AddAgentStoreActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 确认订单 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ConfirmOrderActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 支付页面 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ConfirmPayActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 支付详情 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.PayDetailActivity"
+            android:theme="@style/my_style_day" />
+        //bugly配置相关(版本更新)----------------------------------------
+        <!-- 必须配置 -->
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+        //bugly配置相关----------------------------------------
+
+        <!-- 微信支付 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+        <!-- 个人资料 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.UserInfoActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 修改真实姓名 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ChangeRealNameActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 修改支付密码 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ChangeUserAlipayActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 修改登陆密码 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ChangeLoginPwdActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 审核状态 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.AuditStatusActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 代理套餐申请记录 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.ApplyRecordActivity"
+            android:theme="@style/my_style_day" />
+
+        <!-- 二维码扫描页面 -->
+        <activity
+            android:name="com.sctjsj.mayk.wowallethost.ui.activity.QRCodeActivity"
+            android:theme="@style/my_style_day" />
+        <!-- 静态注册 网络变化广播接收器 -->
+        <receiver android:name="com.sctjsj.basemodule.base.receiver.NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sctjsj.mayk.wowallethost.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- 第三方应用配置 -->
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="bWx5OSFX5r6hisJxR8kqS9" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="lIuCb5PJIe5oVfDWtTjHb4" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="KAD7ekqmM865i1bPkTLr5A" /> <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.igexin.sdk.GActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice" />
+
+        <receiver android:name="com.igexin.download.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:authorities="downloads.com.sctjsj.mayk.wowallethost"
+            android:exported="true"
+            android:process=":pushservice" /> <!-- Custom FileProvider for 7.x -->
+        <provider
+            android:name="com.tencent.bugly.beta.utils.BuglyFileProvider"
+            android:authorities="com.sctjsj.mayk.wowallethost.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- 配置tinker合成结果service -->
+        <service
+            android:name="com.tencent.bugly.beta.tinker.TinkerResultService"
+            android:exported="false" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService"
+            android:exported="false"
+            android:process=":patch" />
+        <service
+            android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService"
+            android:exported="false" />
+    </application>
+
+</manifest>

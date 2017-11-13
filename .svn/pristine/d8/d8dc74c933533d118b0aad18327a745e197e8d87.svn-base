@@ -1,0 +1,73 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import de.hdodenhof.circleimageview.CircleImageView;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class BillDetailActivity_ViewBinding implements Unbinder {
+  private BillDetailActivity target;
+
+  private View view2131755229;
+
+  @UiThread
+  public BillDetailActivity_ViewBinding(BillDetailActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public BillDetailActivity_ViewBinding(final BillDetailActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.civStoreLogo = Utils.findRequiredViewAsType(source, R.id.billing_iv_shopicon, "field 'civStoreLogo'", CircleImageView.class);
+    target.tvStoreName = Utils.findRequiredViewAsType(source, R.id.act_bill_detail_tv_storeName, "field 'tvStoreName'", TextView.class);
+    target.tvPayValue = Utils.findRequiredViewAsType(source, R.id.money, "field 'tvPayValue'", TextView.class);
+    target.tvStatus = Utils.findRequiredViewAsType(source, R.id.billing_tv_istransaction, "field 'tvStatus'", TextView.class);
+    target.tvPayAccount = Utils.findRequiredViewAsType(source, R.id.billing_tv_payment_method, "field 'tvPayAccount'", TextView.class);
+    target.tvGatheringAccount = Utils.findRequiredViewAsType(source, R.id.billing_tv_account, "field 'tvGatheringAccount'", TextView.class);
+    target.tvInsertTime = Utils.findRequiredViewAsType(source, R.id.billing_tv_time, "field 'tvInsertTime'", TextView.class);
+    target.tvOrderNum = Utils.findRequiredViewAsType(source, R.id.billing_tv_order_number, "field 'tvOrderNum'", TextView.class);
+    target.tvDescribe = Utils.findRequiredViewAsType(source, R.id.billing_tv_transfer_instructions, "field 'tvDescribe'", TextView.class);
+    target.rlOrderNum = Utils.findRequiredViewAsType(source, R.id.rl_order_num, "field 'rlOrderNum'", RelativeLayout.class);
+    view = Utils.findRequiredView(source, R.id.shops_linear_back, "method 'onViewClicked'");
+    view2131755229 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    BillDetailActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.civStoreLogo = null;
+    target.tvStoreName = null;
+    target.tvPayValue = null;
+    target.tvStatus = null;
+    target.tvPayAccount = null;
+    target.tvGatheringAccount = null;
+    target.tvInsertTime = null;
+    target.tvOrderNum = null;
+    target.tvDescribe = null;
+    target.rlOrderNum = null;
+
+    view2131755229.setOnClickListener(null);
+    view2131755229 = null;
+  }
+}

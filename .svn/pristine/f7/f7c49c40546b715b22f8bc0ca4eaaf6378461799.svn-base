@@ -1,0 +1,56 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.cjj.MaterialRefreshLayout;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class StoreActivity_ViewBinding implements Unbinder {
+  private StoreActivity target;
+
+  private View view2131755291;
+
+  @UiThread
+  public StoreActivity_ViewBinding(StoreActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public StoreActivity_ViewBinding(final StoreActivity target, View source) {
+    this.target = target;
+
+    View view;
+    target.refreshLayout = Utils.findRequiredViewAsType(source, R.id.refresh, "field 'refreshLayout'", MaterialRefreshLayout.class);
+    target.mRV = Utils.findRequiredViewAsType(source, R.id.rv, "field 'mRV'", RecyclerView.class);
+    view = Utils.findRequiredView(source, R.id.back, "method 'storeOnClick'");
+    view2131755291 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.storeOnClick(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    StoreActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.refreshLayout = null;
+    target.mRV = null;
+
+    view2131755291.setOnClickListener(null);
+    view2131755291 = null;
+  }
+}

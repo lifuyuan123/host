@@ -1,0 +1,342 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+import jp.wasabeef.richeditor.RichEditor;
+
+public class EditProjectIntroduceActivity_ViewBinding implements Unbinder {
+  private EditProjectIntroduceActivity target;
+
+  private View view2131755291;
+
+  private View view2131755351;
+
+  private View view2131755352;
+
+  private View view2131755353;
+
+  private View view2131755354;
+
+  private View view2131755355;
+
+  private View view2131755356;
+
+  private View view2131755357;
+
+  private View view2131755358;
+
+  private View view2131755359;
+
+  private View view2131755360;
+
+  private View view2131755361;
+
+  private View view2131755362;
+
+  private View view2131755363;
+
+  private View view2131755364;
+
+  private View view2131755365;
+
+  private View view2131755366;
+
+  private View view2131755367;
+
+  private View view2131755368;
+
+  private View view2131755369;
+
+  private View view2131755370;
+
+  private View view2131755371;
+
+  private View view2131755372;
+
+  private View view2131755373;
+
+  private View view2131755374;
+
+  @UiThread
+  public EditProjectIntroduceActivity_ViewBinding(EditProjectIntroduceActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public EditProjectIntroduceActivity_ViewBinding(final EditProjectIntroduceActivity target,
+      View source) {
+    this.target = target;
+
+    View view;
+    target.editor = Utils.findRequiredViewAsType(source, R.id.editor, "field 'editor'", RichEditor.class);
+    view = Utils.findRequiredView(source, R.id.back, "method 'onBackClicked'");
+    view2131755291 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onBackClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.save, "method 'onSaveClicked'");
+    view2131755351 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onSaveClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.undo, "method 'onUndoClicked'");
+    view2131755352 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onUndoClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.redo, "method 'onRedoClicked'");
+    view2131755353 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onRedoClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.bold, "method 'onBoldClicked'");
+    view2131755354 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onBoldClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.italic, "method 'onItalicClicked'");
+    view2131755355 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onItalicClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.txt_color, "method 'onTxtColorClicked'");
+    view2131755356 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onTxtColorClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.txt_size, "method 'onTxtSizeClicked'");
+    view2131755357 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onTxtSizeClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h1, "method 'onH1Clicked'");
+    view2131755358 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH1Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h2, "method 'onH2Clicked'");
+    view2131755359 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH2Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h3, "method 'onH3Clicked'");
+    view2131755360 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH3Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h4, "method 'onH4Clicked'");
+    view2131755361 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH4Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h5, "method 'onH5Clicked'");
+    view2131755362 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH5Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.h6, "method 'onH6Clicked'");
+    view2131755363 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onH6Clicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.justify_center, "method 'onJustifyCenterClicked'");
+    view2131755364 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onJustifyCenterClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.justify_left, "method 'onJustifyLeftClicked'");
+    view2131755365 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onJustifyLeftClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.justify_right, "method 'onJustifyRightClicked'");
+    view2131755366 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onJustifyRightClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.superscript, "method 'onSuperscriptClicked'");
+    view2131755367 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onSuperscriptClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.subscript, "method 'onSubscriptClicked'");
+    view2131755368 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onSubscriptClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.underline, "method 'onUnderlineClicked'");
+    view2131755369 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onUnderlineClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.strike_through, "method 'onStrikeThroughClicked'");
+    view2131755370 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onStrikeThroughClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.indent, "method 'onIndentClicked'");
+    view2131755371 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onIndentClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.outdent, "method 'onOutdentClicked'");
+    view2131755372 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onOutdentClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.dot_list, "method 'onDotListClicked'");
+    view2131755373 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onDotListClicked();
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.num_list, "method 'onNumListClicked'");
+    view2131755374 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onNumListClicked();
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    EditProjectIntroduceActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.editor = null;
+
+    view2131755291.setOnClickListener(null);
+    view2131755291 = null;
+    view2131755351.setOnClickListener(null);
+    view2131755351 = null;
+    view2131755352.setOnClickListener(null);
+    view2131755352 = null;
+    view2131755353.setOnClickListener(null);
+    view2131755353 = null;
+    view2131755354.setOnClickListener(null);
+    view2131755354 = null;
+    view2131755355.setOnClickListener(null);
+    view2131755355 = null;
+    view2131755356.setOnClickListener(null);
+    view2131755356 = null;
+    view2131755357.setOnClickListener(null);
+    view2131755357 = null;
+    view2131755358.setOnClickListener(null);
+    view2131755358 = null;
+    view2131755359.setOnClickListener(null);
+    view2131755359 = null;
+    view2131755360.setOnClickListener(null);
+    view2131755360 = null;
+    view2131755361.setOnClickListener(null);
+    view2131755361 = null;
+    view2131755362.setOnClickListener(null);
+    view2131755362 = null;
+    view2131755363.setOnClickListener(null);
+    view2131755363 = null;
+    view2131755364.setOnClickListener(null);
+    view2131755364 = null;
+    view2131755365.setOnClickListener(null);
+    view2131755365 = null;
+    view2131755366.setOnClickListener(null);
+    view2131755366 = null;
+    view2131755367.setOnClickListener(null);
+    view2131755367 = null;
+    view2131755368.setOnClickListener(null);
+    view2131755368 = null;
+    view2131755369.setOnClickListener(null);
+    view2131755369 = null;
+    view2131755370.setOnClickListener(null);
+    view2131755370 = null;
+    view2131755371.setOnClickListener(null);
+    view2131755371 = null;
+    view2131755372.setOnClickListener(null);
+    view2131755372 = null;
+    view2131755373.setOnClickListener(null);
+    view2131755373 = null;
+    view2131755374.setOnClickListener(null);
+    view2131755374 = null;
+  }
+}

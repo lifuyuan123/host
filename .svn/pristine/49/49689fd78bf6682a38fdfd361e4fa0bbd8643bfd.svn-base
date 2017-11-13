@@ -1,0 +1,61 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class SettledActivity_ViewBinding implements Unbinder {
+  private SettledActivity target;
+
+  private View view2131755493;
+
+  private View view2131755494;
+
+  @UiThread
+  public SettledActivity_ViewBinding(SettledActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public SettledActivity_ViewBinding(final SettledActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.settled_lin_back, "method 'onViewClicked'");
+    view2131755493 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.settled_tv_gonhome, "method 'onViewClicked'");
+    view2131755494 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    target = null;
+
+
+    view2131755493.setOnClickListener(null);
+    view2131755493 = null;
+    view2131755494.setOnClickListener(null);
+    view2131755494 = null;
+  }
+}

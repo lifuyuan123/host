@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\layout_basepickerview.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\layout_basepickerview.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pickerview_time.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\pickerview_time.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\include_pickerview_topbar.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\include_pickerview_topbar.xml"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pickerview_options.xml",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\pickerview\\build\\intermediates\\bundles\\debug\\res\\layout\\pickerview_options.xml"
+    }
+]

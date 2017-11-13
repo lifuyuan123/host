@@ -1,0 +1,106 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class Regist1Activity_ViewBinding implements Unbinder {
+  private Regist1Activity target;
+
+  private View view2131755463;
+
+  private View view2131755466;
+
+  private View view2131755469;
+
+  private View view2131755470;
+
+  @UiThread
+  public Regist1Activity_ViewBinding(Regist1Activity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public Regist1Activity_ViewBinding(final Regist1Activity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.regist1_rela_back, "field 'regist1RelaBack' and method 'onViewClicked'");
+    target.regist1RelaBack = Utils.castView(view, R.id.regist1_rela_back, "field 'regist1RelaBack'", RelativeLayout.class);
+    view2131755463 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.regist1EdtPhone = Utils.findRequiredViewAsType(source, R.id.regist1_edt_phone, "field 'regist1EdtPhone'", EditText.class);
+    target.regist1EdtInputCode = Utils.findRequiredViewAsType(source, R.id.regist1_edt_input_code, "field 'regist1EdtInputCode'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.regist1_Img_code, "field 'regist1ImgCode' and method 'onViewClicked'");
+    target.regist1ImgCode = Utils.castView(view, R.id.regist1_Img_code, "field 'regist1ImgCode'", RelativeLayout.class);
+    view2131755466 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.regist1EdtPhoenCode = Utils.findRequiredViewAsType(source, R.id.regist1_edt_phoen_code, "field 'regist1EdtPhoenCode'", EditText.class);
+    target.regist1RelaGetphoencode = Utils.findRequiredViewAsType(source, R.id.regist1_rela_getphoencode, "field 'regist1RelaGetphoencode'", RelativeLayout.class);
+    view = Utils.findRequiredView(source, R.id.act_register1_btn_go_next, "field 'actRegister1BtnGoNext' and method 'onViewClicked'");
+    target.actRegister1BtnGoNext = Utils.castView(view, R.id.act_register1_btn_go_next, "field 'actRegister1BtnGoNext'", Button.class);
+    view2131755469 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_register1_tv_to_login, "field 'actRegister1TvToLogin' and method 'onViewClicked'");
+    target.actRegister1TvToLogin = Utils.castView(view, R.id.act_register1_tv_to_login, "field 'actRegister1TvToLogin'", TextView.class);
+    view2131755470 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    Regist1Activity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.regist1RelaBack = null;
+    target.regist1EdtPhone = null;
+    target.regist1EdtInputCode = null;
+    target.regist1ImgCode = null;
+    target.regist1EdtPhoenCode = null;
+    target.regist1RelaGetphoencode = null;
+    target.actRegister1BtnGoNext = null;
+    target.actRegister1TvToLogin = null;
+
+    view2131755463.setOnClickListener(null);
+    view2131755463 = null;
+    view2131755466.setOnClickListener(null);
+    view2131755466 = null;
+    view2131755469.setOnClickListener(null);
+    view2131755469 = null;
+    view2131755470.setOnClickListener(null);
+    view2131755470 = null;
+  }
+}

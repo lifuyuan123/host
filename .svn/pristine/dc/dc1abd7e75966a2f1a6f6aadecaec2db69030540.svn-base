@@ -1,0 +1,291 @@
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import com.alibaba.android.arouter.facade.annotation.Autowired;
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
+import com.bumptech.glide.Glide;
+import com.sctjsj.basemodule.base.HttpTask.XProgressCallback;
+import com.sctjsj.basemodule.base.ui.act.BaseAppcompatActivity;
+import com.sctjsj.basemodule.base.util.DpUtils;
+import com.sctjsj.basemodule.base.util.LogUtil;
+import com.sctjsj.basemodule.base.util.StringUtil;
+import com.sctjsj.basemodule.core.img_load.PicassoUtil;
+import com.sctjsj.basemodule.core.router_service.impl.HttpServiceImpl;
+import com.sctjsj.mayk.wowallethost.R;
+import com.sctjsj.mayk.wowallethost.intf.MainUrl;
+import com.sctjsj.mayk.wowallethost.util.UserAuthUtil;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.common.Callback;
+
+import java.text.DecimalFormat;
+import java.util.HashMap;
+
+import butterknife.BindView;
+import butterknife.OnClick;
+import de.hdodenhof.circleimageview.CircleImageView;
+
+
+
+//订单详情
+@Route(path = "/main/act/order")
+public class OrderDetailsActivity extends BaseAppcompatActivity {
+
+
+    @BindView(R.id.billing_iv_shopicon)CircleImageView civStoreLogo;
+    @BindView(R.id.act_bill_detail_tv_storeName)TextView tvStoreName;
+    @BindView(R.id.money)TextView tvPayValue;
+    @BindView(R.id.billing_tv_istransaction)TextView tvStatus;
+    @BindView(R.id.billing_tv_payment_method)TextView tvPayAccount;
+    @BindView(R.id.billing_tv_account)TextView tvGatheringAccount;
+    @BindView(R.id.billing_tv_time)TextView tvInsertTime;
+    @BindView(R.id.billing_tv_order_number)TextView tvOrderNum;
+    @BindView(R.id.billing_tv_transfer_instructions)TextView tvDescribe;
+    @BindView(R.id.rl_order_num)RelativeLayout rlOrderNum;
+    @Autowired(name = "key")
+    int id;
+    private HttpServiceImpl service;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        service= (HttpServiceImpl) ARouter.getInstance().build("/basemodule/service/http").navigation();
+        queryBillDetail(id);
+        Log.e("queryBillDetail_id",id+"");
+    }
+
+    @Override
+    public int initLayout() {
+        return R.layout.activity_order_details;
+    }
+
+    @Override
+    public void reloadData() {
+
+    }
+
+
+    @OnClick({R.id.shops_linear_back, R.id.billing_tv_question})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.shops_linear_back:
+                finish();
+                break;
+            //弹出提示
+            case R.id.billing_tv_question:
+                break;
+        }
+    }
+
+    /**
+     * 查询账单详情
+     *
+     * @param id
+     */
+    public void queryBillDetail(final int id) {
+        HashMap<String, String> map = new HashMap<>();
+          map.put("ofId",String.valueOf(id));
+          map.put("jf","flowOrder|storeTbl|manager|storeLogo|user|photo|ifPayment|incomeUser|expenditureUser");
+        service.doCommonPost(null, MainUrl.queryBill, map, new XProgressCallback() {
+            @Override
+            public void onSuccess(String resultStr) {
+                Log.e("queryBillDetail",resultStr.toString());
+                if(!StringUtil.isBlank(resultStr)){
+                    try {
+                        JSONObject object=new JSONObject(resultStr);
+                        JSONArray array=object.getJSONArray("transFlow");
+                        if(array!=null&&array.length()>0) {
+                            JSONObject object1 = array.getJSONObject(0);
+
+                            if (object1 != null) {
+//                            操作金额
+                                double amount = object1.getDouble("amount");
+                                //创建时间
+                                String insertTime = object1.getString("insertTime");
+                                tvInsertTime.setText(insertTime);
+//                            根据流水类型获取交易对方账户信息
+                                int fType = object1.getInt("fType");
+
+                                int id = object1.getJSONObject("incomeUser").getInt("id");
+                                if (UserAuthUtil.getUserId() == id) {
+                                    fType = 1;
+                                }
+                                if (fType == 1) {
+                                    tvPayValue.setText("+" +new DecimalFormat("######0.00").format(amount) );
+                                    JSONObject expend = object1.getJSONObject("expenditureUser");
+                                    String expendLogo = null;
+                                    String expendStr = expend.getString("photo");
+                                    if (!StringUtil.isBlank(expendStr)) {
+                                        expendLogo = expend.getJSONObject("photo").getString("url");
+//                                        PicassoUtil.getPicassoObject().
+                                        Glide.with(OrderDetailsActivity.this).
+                                                load(expendLogo).
+//                                                resize(DpUtils.dpToPx(OrderDetailsActivity.this, 80), DpUtils.dpToPx(OrderDetailsActivity.this, 80)).
+                                                error(R.mipmap.icon_load_faild).into(civStoreLogo);
+                                    }
+                                    String username = expend.getString("username");
+                                    tvStoreName.setText(username);
+
+                                } else if (fType == 2) {
+                                    tvPayValue.setText("-" + new DecimalFormat("######0.00").format(amount));
+
+                                    JSONObject income = object1.getJSONObject("incomeUser");
+                                    String incomeLogo = null;
+                                    String incomeStr = income.getString("photo");
+                                    if (!StringUtil.isBlank(incomeStr)) {
+                                        incomeLogo = income.getJSONObject("photo").getString("url");
+//                                        PicassoUtil.getPicassoObject().
+                                        Glide.with(OrderDetailsActivity.this).
+                                                load(incomeLogo).
+//                                                resize(DpUtils.dpToPx(OrderDetailsActivity.this, 80), DpUtils.dpToPx(OrderDetailsActivity.this, 80)).
+                                                error(R.mipmap.icon_load_faild).into(civStoreLogo);
+                                    }
+                                    String username = income.getString("username");
+                                    tvStoreName.setText(username);
+
+                                }
+
+//                            根据 tTypeT 判断交易类型* 1-内部交易，平台帐户金额不变；2-接口交易，平台帐户金额会变化
+                                int tType = object1.getInt("tType");
+
+                                JSONObject order = object1.getJSONObject("flowOrder");
+                                //无订单
+                                if (1 == tType) {
+//                                rlOrderNum.setVisibility(View.GONE);
+                                    String orderNum = order.getString("name");
+                                    tvOrderNum.setText(orderNum);
+//                                    //付款方式
+//                                    tvPayAccount.setText("余额");
+//                                    //转账说明
+//                                    tvDescribe.setText("余额转账");
+
+                                    //   对方帐号
+
+                                    //收入
+                                    if (1 == fType) {
+                                        String n1 = object1.getJSONObject("expenditureUser").getString("username");
+                                        tvGatheringAccount.setText(n1);
+                                    }
+                                    //支出
+                                    if (2 == fType) {
+                                        String n2 = object1.getJSONObject("incomeUser").getString("username");
+                                        tvGatheringAccount.setText(n2);
+                                    }
+
+                                }
+
+                                //有订单
+                                if (2 == tType) {
+                                    rlOrderNum.setVisibility(View.VISIBLE);
+                                    //付款方式
+//                                    tvPayAccount.setText("支付宝");
+//                                    //转账说明
+//                                    tvDescribe.setText("支付宝支付");
+                                    tvGatheringAccount.setText(object1.getJSONObject("expenditureUser").getString("username"));
+
+                                    //订单号
+                                    String orderNum = order.getString("name");
+                                    tvOrderNum.setText(orderNum);
+
+                                }
+
+
+                                String message=order.getJSONObject("ifPayment").getString("message");
+                                int payType=order.getJSONObject("ifPayment").getInt("type");
+                                //订单号
+                                String orderNum = order.getString("name");
+                                tvOrderNum.setText(orderNum);
+
+                                //收入
+                                if (1 == fType) {
+                                    String n1 = object1.getJSONObject("expenditureUser").getString("username");
+                                    tvGatheringAccount.setText(n1);
+                                }
+                                //支出
+                                if (2 == fType) {
+                                    String n2 = object1.getJSONObject("incomeUser").getString("username");
+                                    tvGatheringAccount.setText(n2);
+                                }
+
+                                tvStatus.setText(message);
+                                switch (payType){
+                                    case 1:
+                                        //付款方式
+                                        tvPayAccount.setText("微信");
+                                        //转账说明
+                                        tvDescribe.setText("微信支付");
+                                        break;
+                                    case 2:
+                                        //付款方式
+                                        tvPayAccount.setText("支付宝");
+                                        //转账说明
+                                        tvDescribe.setText("支付宝支付");
+                                        break;
+                                    case 3:
+                                        //付款方式
+                                        tvPayAccount.setText("余额");
+                                        //转账说明
+                                        tvDescribe.setText("余额转账");
+                                        break;
+                                }
+
+
+                            }
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        LogUtil.e("queryBillDetail_JSONException",e.toString());
+                    }
+
+                        }
+
+
+            }
+
+            @Override
+            public void onError(Throwable ex) {
+                LogUtil.e("queryBillDetail_onError",ex.toString());
+            }
+
+            @Override
+            public void onCancelled(Callback.CancelledException cex) {
+
+            }
+
+            @Override
+            public void onFinished() {
+                dismissLoading();
+            }
+
+            @Override
+            public void onWaiting() {
+
+            }
+
+            @Override
+            public void onStarted() {
+                showLoading(true, "正在加载中");
+            }
+
+            @Override
+            public void onLoading(long total, long current) {
+
+            }
+        });
+
+
+    }
+
+}

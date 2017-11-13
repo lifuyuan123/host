@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#5078ED</color>
+    <color name="colorPrimaryDark">#5078ED</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--自定义颜色-->
+    <color name="color_primary_blue">#5078ED</color>
+
+    <color name="color_deep_blue">#275CFA</color>
+
+    <color name="color_primary_white">#ffffff</color>
+
+    <color name="color_fade_gray">#F8F8F8</color>
+
+
+    <color name="color_txt_gray">#B4B4B4</color>
+
+    <color name="color_divider_gray">#EFEFEF</color>
+
+    <color name="color_primary_black">#000000</color>
+
+    <color name="color_fade_black">#646464</color>
+
+    <color name="color_text">#6c6b6b</color>
+
+    <color name="color_home_text">#2586EA</color>
+
+    <color name="color_text_home">#8B8B8B</color>
+
+    <color name="primary_text">#de000000</color>
+    <color name="secondary_text">#8a000000</color>
+    <color name="hint_text">#61000000</color>
+    <color name="dividers">#1f000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="color_yellow">#ECC586</color>
+
+    <color name="color_pure_blue">#2156FD</color>
+
+    <color name="color_pure_yellow">#D1E833</color>
+
+    <color name="color_balance">#4d4b4b</color>
+
+    <color name="red_money">#F7211B</color>
+    
+    <color name="column">#EFEFEF</color>
+    <color name="app_fade_gray">#EEEEEE</color>
+
+</resources>

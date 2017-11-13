@@ -1,0 +1,43 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.adapter;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import de.hdodenhof.circleimageview.CircleImageView;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class BillAdapter$XViewHolder_ViewBinding implements Unbinder {
+  private BillAdapter.XViewHolder target;
+
+  @UiThread
+  public BillAdapter$XViewHolder_ViewBinding(BillAdapter.XViewHolder target, View source) {
+    this.target = target;
+
+    target.orderRel = Utils.findRequiredViewAsType(source, R.id.order_rel, "field 'orderRel'", RelativeLayout.class);
+    target.friendItemIcon = Utils.findRequiredViewAsType(source, R.id.friend_item_icon, "field 'friendItemIcon'", CircleImageView.class);
+    target.friendItemName = Utils.findRequiredViewAsType(source, R.id.friend_item_name, "field 'friendItemName'", TextView.class);
+    target.friendItemMoney = Utils.findRequiredViewAsType(source, R.id.friend_item_money, "field 'friendItemMoney'", TextView.class);
+    target.friendItemTime = Utils.findRequiredViewAsType(source, R.id.friend_item_time, "field 'friendItemTime'", TextView.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    BillAdapter.XViewHolder target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.orderRel = null;
+    target.friendItemIcon = null;
+    target.friendItemName = null;
+    target.friendItemMoney = null;
+    target.friendItemTime = null;
+  }
+}

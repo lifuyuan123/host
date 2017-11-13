@@ -1,0 +1,74 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ChangeRealNameActivity_ViewBinding implements Unbinder {
+  private ChangeRealNameActivity target;
+
+  private View view2131755299;
+
+  private View view2131755300;
+
+  @UiThread
+  public ChangeRealNameActivity_ViewBinding(ChangeRealNameActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ChangeRealNameActivity_ViewBinding(final ChangeRealNameActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.changeRealName_back_rl, "field 'changeRealNameBackRl' and method 'onViewClicked'");
+    target.changeRealNameBackRl = Utils.castView(view, R.id.changeRealName_back_rl, "field 'changeRealNameBackRl'", RelativeLayout.class);
+    view2131755299 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.changeRealName_save_txt, "field 'changeRealNameSaveTxt' and method 'onViewClicked'");
+    target.changeRealNameSaveTxt = Utils.castView(view, R.id.changeRealName_save_txt, "field 'changeRealNameSaveTxt'", TextView.class);
+    view2131755300 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.changeRealNameEditText = Utils.findRequiredViewAsType(source, R.id.changeRealName_editText, "field 'changeRealNameEditText'", EditText.class);
+    target.activityChangeUserName = Utils.findRequiredViewAsType(source, R.id.activity_change_user_name, "field 'activityChangeUserName'", LinearLayout.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ChangeRealNameActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.changeRealNameBackRl = null;
+    target.changeRealNameSaveTxt = null;
+    target.changeRealNameEditText = null;
+    target.activityChangeUserName = null;
+
+    view2131755299.setOnClickListener(null);
+    view2131755299 = null;
+    view2131755300.setOnClickListener(null);
+    view2131755300 = null;
+  }
+}

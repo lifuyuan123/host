@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_agent_mange.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xhdpi\\ic_agent_mange.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_launcher_round.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\job\\job\\host\\WoWalletHost\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\shops_top.png",
+        "source": "E:\\job\\job\\host\\WoWalletHost\\app\\src\\main\\res\\mipmap-xhdpi\\shops_top.png"
+    }
+]

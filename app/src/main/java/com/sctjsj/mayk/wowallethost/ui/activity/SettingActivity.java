@@ -1,0 +1,204 @@
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
+import com.sctjsj.basemodule.base.HttpTask.XProgressCallback;
+import com.sctjsj.basemodule.base.ui.act.BaseAppcompatActivity;
+import com.sctjsj.basemodule.base.ui.widget.dialog.CommonDialog;
+import com.sctjsj.basemodule.base.util.LogUtil;
+import com.sctjsj.basemodule.base.util.SPFUtil;
+import com.sctjsj.basemodule.base.util.StringUtil;
+import com.sctjsj.basemodule.core.router_service.impl.HttpServiceImpl;
+import com.sctjsj.mayk.wowallethost.Application.MyApplication;
+import com.sctjsj.mayk.wowallethost.R;
+import com.sctjsj.mayk.wowallethost.intf.MainUrl;
+import com.tencent.bugly.beta.Beta;
+import com.zcw.togglebutton.ToggleButton;
+
+import org.greenrobot.eventbus.EventBus;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.xutils.common.Callback;
+
+import butterknife.BindView;
+import butterknife.OnClick;
+
+@Route(path = "/main/act/SettingActivity")
+public class SettingActivity extends BaseAppcompatActivity {
+
+    @BindView(R.id.setting_PhoneState_tog)
+    ToggleButton TogState;
+
+    @BindView(R.id.setting_versions_txt)
+    TextView settingVersionsTxt;
+    @BindView(R.id.setting_back)
+    RelativeLayout settingBack;
+    @BindView(R.id.lin_version)
+    LinearLayout linVersion;
+    @BindView(R.id.setting_backLogin_txt)
+    TextView settingBackLoginTxt;
+
+    private MyApplication app;
+    private HttpServiceImpl http;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        http = (HttpServiceImpl) ARouter.getInstance().build("/basemodule/service/http").navigation();
+        app = (MyApplication) getApplication();
+        initVersion();
+        boolean toggleButtonStatus = app.getToggleButtonStatus();
+        if (toggleButtonStatus) {
+            TogState.setToggleOn();
+        } else {
+            TogState.setToggleOff();
+        }
+
+        //监听震动状态
+        TogState.setOnToggleChanged(new ToggleButton.OnToggleChanged() {
+            @Override
+            public void onToggle(boolean on) {
+                app.saveToggleButtonStatus(on);
+            }
+        });
+    }
+
+    @Override
+    public int initLayout() {
+        return R.layout.activity_seting;
+    }
+
+    @Override
+    public void reloadData() {
+
+    }
+
+    @OnClick({R.id.setting_back, R.id.lin_version, R.id.setting_backLogin_txt})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.setting_back:
+                finish();
+                break;
+            //检查版本更新
+            case R.id.lin_version:
+//                UpdateUtil.getInstance(this).checkVersionManual();
+                Beta.checkUpgrade();
+                break;
+            //退出
+            case R.id.setting_backLogin_txt:
+                final CommonDialog dia = new CommonDialog(this);
+                dia.setTitle("确认退出");
+                dia.setContent("确认退出程序？");
+                dia.setCancelClickListener("取消", new CommonDialog.CancelClickListener() {
+                    @Override
+                    public void clickCancel() {
+                        dia.dismiss();
+                    }
+                });
+                dia.setConfirmClickListener("退出", new CommonDialog.ConfirmClickListener() {
+                    @Override
+                    public void clickConfirm() {
+                        dia.dismiss();
+                        logout();
+                    }
+                });
+                dia.show();
+                break;
+        }
+    }
+
+    /**
+     * 获取版本号
+     */
+    private void initVersion() {
+        try {
+            String version = getPackageManager().
+                    getPackageInfo(getPackageName(), 0).versionName;
+            if (version != null) {
+                settingVersionsTxt.setText("v_" + version);
+            }
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 退出
+     */
+    private void logout() {
+        http.doCommonPost(null, MainUrl.logoutUrl, null, new XProgressCallback() {
+            @Override
+            public void onSuccess(String resultStr) {
+
+                LogUtil.e("logoutonSuccess", resultStr.toString());
+                if (!StringUtil.isBlank(resultStr)) {
+                    try {
+                        JSONObject obj = new JSONObject(resultStr);
+                        boolean result = obj.getBoolean("result");
+                        String msg = obj.getString("msg");
+
+                        //退出成功
+                        if (result) {
+                            Toast.makeText(SettingActivity.this, msg, Toast.LENGTH_SHORT).show();
+                            SPFUtil.clearAll();
+
+                            Log.e("SPFUtil", SPFUtil.getAll().size() + "----------");
+                            finish();
+                            EventBus.getDefault().post("out");
+//                            android.os.Process.killProcess(android.os.Process.myPid());
+                            ARouter.getInstance().build("/main/act/login").navigation();
+                        }else {
+                            Toast.makeText(SettingActivity.this, msg, Toast.LENGTH_SHORT).show();
+                        }
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                        LogUtil.e("logoutJSONException",e.toString());
+                    }
+                }
+            }
+
+            @Override
+            public void onError(Throwable ex) {
+                LogUtil.e("logoutonError",ex.toString());
+
+
+            }
+
+            @Override
+            public void onCancelled(Callback.CancelledException cex) {
+
+            }
+
+            @Override
+            public void onFinished() {
+
+            }
+
+            @Override
+            public void onWaiting() {
+
+            }
+
+            @Override
+            public void onStarted() {
+
+            }
+
+            @Override
+            public void onLoading(long total, long current) {
+
+            }
+        });
+    }
+
+}

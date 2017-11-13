@@ -1,0 +1,69 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class AddOrModifyProjectClassify_ViewBinding implements Unbinder {
+  private AddOrModifyProjectClassify target;
+
+  private View view2131755200;
+
+  private View view2131755202;
+
+  @UiThread
+  public AddOrModifyProjectClassify_ViewBinding(AddOrModifyProjectClassify target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public AddOrModifyProjectClassify_ViewBinding(final AddOrModifyProjectClassify target,
+      View source) {
+    this.target = target;
+
+    View view;
+    target.mTVTitle = Utils.findRequiredViewAsType(source, R.id.act_add_or_modify_classify_tv_title, "field 'mTVTitle'", TextView.class);
+    target.mETInput = Utils.findRequiredViewAsType(source, R.id.act_add_or_modify_classify_et_input, "field 'mETInput'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.act_add_or_modify_classify_rl_back, "method 'onViewClicked'");
+    view2131755200 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.act_add_or_modify_classify_tv_op, "method 'onViewClicked'");
+    view2131755202 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    AddOrModifyProjectClassify target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.mTVTitle = null;
+    target.mETInput = null;
+
+    view2131755200.setOnClickListener(null);
+    view2131755200 = null;
+    view2131755202.setOnClickListener(null);
+    view2131755202 = null;
+  }
+}

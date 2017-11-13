@@ -1,0 +1,70 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class GatheringQrActivity_ViewBinding implements Unbinder {
+  private GatheringQrActivity target;
+
+  private View view2131755421;
+
+  private View view2131755423;
+
+  @UiThread
+  public GatheringQrActivity_ViewBinding(GatheringQrActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public GatheringQrActivity_ViewBinding(final GatheringQrActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.gatheringQr_back_rl, "field 'gatheringQrBackRl' and method 'onViewClicked'");
+    target.gatheringQrBackRl = Utils.castView(view, R.id.gatheringQr_back_rl, "field 'gatheringQrBackRl'", RelativeLayout.class);
+    view2131755421 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.gatheringQrImg = Utils.findRequiredViewAsType(source, R.id.gatheringQr_Img, "field 'gatheringQrImg'", ImageView.class);
+    view = Utils.findRequiredView(source, R.id.gatheringQr_save_rl, "field 'gatheringQrSaveRl' and method 'onViewClicked'");
+    target.gatheringQrSaveRl = Utils.castView(view, R.id.gatheringQr_save_rl, "field 'gatheringQrSaveRl'", RelativeLayout.class);
+    view2131755423 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    GatheringQrActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.gatheringQrBackRl = null;
+    target.gatheringQrImg = null;
+    target.gatheringQrSaveRl = null;
+
+    view2131755421.setOnClickListener(null);
+    view2131755421 = null;
+    view2131755423.setOnClickListener(null);
+    view2131755423 = null;
+  }
+}

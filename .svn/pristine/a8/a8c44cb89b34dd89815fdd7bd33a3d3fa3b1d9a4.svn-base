@@ -1,0 +1,74 @@
+// Generated code from Butter Knife. Do not modify!
+package com.sctjsj.mayk.wowallethost.ui.activity;
+
+import android.support.annotation.CallSuper;
+import android.support.annotation.UiThread;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import butterknife.Unbinder;
+import butterknife.internal.DebouncingOnClickListener;
+import butterknife.internal.Utils;
+import com.sctjsj.mayk.wowallethost.R;
+import java.lang.IllegalStateException;
+import java.lang.Override;
+
+public class ChangeUserAlipayActivity_ViewBinding implements Unbinder {
+  private ChangeUserAlipayActivity target;
+
+  private View view2131755302;
+
+  private View view2131755303;
+
+  @UiThread
+  public ChangeUserAlipayActivity_ViewBinding(ChangeUserAlipayActivity target) {
+    this(target, target.getWindow().getDecorView());
+  }
+
+  @UiThread
+  public ChangeUserAlipayActivity_ViewBinding(final ChangeUserAlipayActivity target, View source) {
+    this.target = target;
+
+    View view;
+    view = Utils.findRequiredView(source, R.id.changeAlipay_back_rl, "field 'changeAlipayBackRl' and method 'onViewClicked'");
+    target.changeAlipayBackRl = Utils.castView(view, R.id.changeAlipay_back_rl, "field 'changeAlipayBackRl'", RelativeLayout.class);
+    view2131755302 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.changeAlipay_save_txt, "field 'changeAlipaySaveTxt' and method 'onViewClicked'");
+    target.changeAlipaySaveTxt = Utils.castView(view, R.id.changeAlipay_save_txt, "field 'changeAlipaySaveTxt'", TextView.class);
+    view2131755303 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    target.changeRealAlipayEditText = Utils.findRequiredViewAsType(source, R.id.changeRealAlipay_editText, "field 'changeRealAlipayEditText'", EditText.class);
+    target.activityChangeUserName = Utils.findRequiredViewAsType(source, R.id.activity_change_user_name, "field 'activityChangeUserName'", LinearLayout.class);
+  }
+
+  @Override
+  @CallSuper
+  public void unbind() {
+    ChangeUserAlipayActivity target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
+    this.target = null;
+
+    target.changeAlipayBackRl = null;
+    target.changeAlipaySaveTxt = null;
+    target.changeRealAlipayEditText = null;
+    target.activityChangeUserName = null;
+
+    view2131755302.setOnClickListener(null);
+    view2131755302 = null;
+    view2131755303.setOnClickListener(null);
+    view2131755303 = null;
+  }
+}

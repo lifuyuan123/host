@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\job\job\host\WoWalletHost\pickerview\src\main\assets"><file name="city.json" path="E:\job\job\host\WoWalletHost\pickerview\src\main\assets\city.json"/></source><source path="E:\job\job\host\WoWalletHost\pickerview\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\job\job\host\WoWalletHost\pickerview\src\debug\assets"/></dataSet></merger>

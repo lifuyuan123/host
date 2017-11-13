@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--店铺管理头-->
+    <LinearLayout
+        android:background="@mipmap/shops_top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x180">
+        <TextView
+            android:gravity="center"
+            android:text="店铺管理"
+            android:textSize="@dimen/x18"
+            android:textColor="@color/color_primary_white"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x40" />
+        <ImageView
+            android:src="@mipmap/icon_default_portrait"
+            android:layout_marginTop="@dimen/x5"
+            android:id="@+id/iv_store_logo"
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/x80" />
+        <TextView
+            android:id="@+id/tv_store_name"
+            android:layout_marginTop="@dimen/x10"
+            android:text=""
+            android:textColor="@color/color_primary_white"
+            android:textSize="@dimen/x14"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <!--下面的布局-->
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_marginBottom="@dimen/x10"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--第一横排-->
+       <LinearLayout
+           android:layout_marginBottom="@dimen/x1"
+           android:weightSum="3"
+           android:orientation="horizontal"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="0dp">
+
+           <!--营业中/未营业-->
+           <RelativeLayout
+               android:layout_marginRight="@dimen/x1"
+               android:id="@+id/shop_lin_open_close"
+               android:background="@color/color_primary_white"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+               <LinearLayout
+                   android:gravity="center"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+                   <ImageView
+                       android:id="@+id/store_iv_open_close"
+                       android:src="@drawable/store_open_icon"
+                       android:layout_width="@dimen/x35"
+                       android:layout_height="@dimen/x35" />
+                   <TextView
+                       android:id="@+id/store_tv_open_close"
+                       android:layout_marginTop="@dimen/x5"
+                       android:textSize="@dimen/x14"
+                       android:text="营业状态"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+               <TextView
+                   android:text=""
+                   android:layout_marginBottom="@dimen/x2"
+                   android:layout_alignParentBottom="true"
+                   android:layout_centerHorizontal="true"
+                   android:textSize="@dimen/x10"
+                   android:textColor="@color/color_primary_blue"
+                   android:id="@+id/tv_store_status"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+           </RelativeLayout>
+
+
+
+           <!--店铺管理-->
+           <LinearLayout
+               android:id="@+id/shop_lin_manage"
+               android:layout_marginRight="@dimen/x1"
+               android:background="@color/color_primary_white"
+               android:gravity="center"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:src="@drawable/store_manage_icon"
+                   android:layout_width="@dimen/x35"
+                   android:layout_height="@dimen/x35" />
+               <TextView
+                   android:layout_marginTop="@dimen/x5"
+                   android:textSize="@dimen/x14"
+                   android:text="店铺管理"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+           </LinearLayout>
+
+           <!--店内项目-->
+           <LinearLayout
+               android:id="@+id/shop_lin_project"
+               android:background="@color/color_primary_white"
+               android:gravity="center"
+               android:orientation="vertical"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+               <ImageView
+                   android:src="@drawable/store_project_icon"
+                   android:layout_width="@dimen/x35"
+                   android:layout_height="@dimen/x35" />
+               <TextView
+                   android:layout_marginTop="@dimen/x5"
+                   android:textSize="@dimen/x14"
+                   android:text="店内项目"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+           </LinearLayout>
+       </LinearLayout>
+
+        <!--第二横排-->
+        <LinearLayout
+            android:layout_marginBottom="@dimen/x1"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <!--店铺广告图-->
+            <LinearLayout
+                android:layout_marginRight="@dimen/x1"
+                android:id="@+id/shop_lin_advertising"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/store_advertising_icon"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <TextView
+                    android:layout_marginTop="@dimen/x5"
+                    android:textSize="@dimen/x14"
+                    android:text="商家相册"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--店铺预览-->
+            <LinearLayout
+                android:id="@+id/shop_lin_preview"
+                android:layout_marginRight="@dimen/x1"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/shop_preview_icon"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <TextView
+                    android:layout_marginTop="@dimen/x5"
+                    android:textSize="@dimen/x14"
+                    android:text="店铺预览"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--美容师-->
+            <LinearLayout
+                android:id="@+id/shop_lin_beautician"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/beautician_icon"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <TextView
+                    android:layout_marginTop="@dimen/x5"
+                    android:textSize="@dimen/x14"
+                    android:text="店员管理"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--第三横排-->
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:layout_marginRight="@dimen/x1"
+                android:id="@+id/shop_lin_evaluation"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@drawable/evaluation_manage_icon"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <TextView
+                    android:layout_marginTop="@dimen/x5"
+                    android:textSize="@dimen/x14"
+                    android:text="评价管理"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--平台结算比例-->
+            <RelativeLayout
+                android:layout_marginRight="@dimen/x1"
+                android:background="@color/color_primary_white"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginRight="@dimen/x1"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/commission_icon"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/x5"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/x14"
+                        android:text="平台结算比例:"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+                <TextView
+                    android:layout_marginBottom="@dimen/x2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/tv_rate"
+                    android:textSize="@dimen/x14"
+                    android:text="0.0%"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <!--粉丝-->
+            <LinearLayout
+                android:id="@+id/shop_fans"
+                android:background="@color/color_primary_white"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@mipmap/icon_home_fan"
+                    android:layout_width="@dimen/x35"
+                    android:layout_height="@dimen/x35" />
+                <TextView
+                    android:layout_marginTop="@dimen/x5"
+                    android:textSize="@dimen/x14"
+                    android:text="沃粉"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
